@@ -69,14 +69,14 @@
                         label = "SYSTEM";
                                 // -----------------------------------------------------------------------------------------
                                 // | BTCLR| BT1  | BT2  | BT3   | BT4   | BT5        | _________ |     |     |     |     |     |   |
-                                // | CTRL | Prev | Next | Vol - | Vol + | Play/Pause | _________ |     |     |     |     |     |  `   |
-                                // | SHFT |      |      |       |       |            | _________ |     |     |     |     | RGB_ON |  RGB_OFF   |
+                                // | CTRL | Prev | Next | Vol - | Vol + | Play/Pause | _________ |     |     |     |     |     |    |
+                                // | SHFT |      |      | C_BRI_DN | C_BRI_UP | MUTE       | _________ |     |     | RGB_INC | RGB_DOWN | RGB_ON |  RGB_OFF   |
                                 //                      | GUI   |       | SPC        | _________ | ENT |  EP_ON  | EP_OFF |
                         bindings = <
                                 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4               &trans   &trans  &trans  &trans  &trans          &trans
                                 &kp LCTRL   &kp C_PREV    &kp C_NEXT    &kp C_VOL_DN   &kp C_VOL_UP  &kp C_PP                   &trans   &trans  &trans  &trans  &trans          &trans
-                                &kp LSHFT   &trans        &trans        &trans         &trans        &trans                     &trans   &trans  &trans  &trans  &rgb_ug RGB_ON  &rgb_ug RGB_OFF
-                                                                        &kp LGUI       &trans         &kp SPACE                 &kp RET  &trans  &trans
+                                &kp LSHFT   &trans        &trans        &kp C_BRI_DN   &kp C_BRI_UP  &kp C_MUTE                 &trans   &trans  &rgb_ug RGB_BRI &rgb_ug RGB_BRD &rgb_ug RGB_ON  &rgb_ug RGB_OFF   
+                                                                        &kp LGUI       &trans        &kp SPACE                  &kp RET  &trans  &trans
                         >;
                 };
         };
