@@ -7,33 +7,24 @@ layers:
   - [N, M, ',', ., /, ESC, LGUI, lower, SPACE, RET]
   - [raise, RALT]
   lower:
-  - [TAB, F1, F2, F3, F4, F5, '0', '7', '8', '9']
-  - - '='
-    - BSPC
-    - LSHFT
-    - F6
-    - F7
-    - F8
-    - F9
-    - F10
-    - {t: ▽, type: trans}
-    - '4'
-  - - '5'
-    - '6'
-    - '-'
-    - /
+  - [TAB, F1, F2, F3, F4, F5, KP 0, KP 7, KP 8, KP 9]
+  - ['=', BSPC, LSHFT, F6, F7, F8, F9, F10, KP DOT, KP 4]
+  - - KP 5
+    - KP 6
+    - KP MINUS
+    - KP DIVIDE
     - LCTRL
     - F11
     - F12
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - '1'
-    - '2'
-    - '3'
-    - +
-    - '*'
+  - - KP COMMA
+    - KP 1
+    - KP 2
+    - KP 3
+    - KP PLUS
+    - KP MULTIPLY
     - LGUI
     - {type: held}
     - SPACE
