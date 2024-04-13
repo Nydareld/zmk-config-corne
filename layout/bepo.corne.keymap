@@ -3,6 +3,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/rgb.h>
+#include "keys_si.h"
 
 #define DEFAULT  0
 #define LOWER    1
@@ -27,10 +28,10 @@
                                 //                    | GUI | LWR | SPC | _________ | ENT | RSE  | ALT |
 
                         bindings = <
-                                &kp TAB    &kp B   &kp W     &kp P      &kp O        &kp SQT            &kp CARET    &kp V      &kp D      &kp L    &kp J  &kp BSPC
-                                &kp LSHFT  &kp A   &kp U     &kp I      &kp E        &kp COMMA          &kp C    &kp T      &kp S      &kp R    &kp N  &kp SQT
-                                &kp LCTRL  &kp Z   &kp Y     &kp X      &kp SEMI     &kp K              &kp M    &kp Q      &kp G      &kp H    &kp F  &kp ESC
-                                                   &kp LGUI  &mo LOWER  &kp SPACE           &kp RET  &mo RAISE  &kp RALT
+                                &kp TAB    &kp SI_B   &kp SI_W     &kp SI_P      &kp SI_O    &kp SQT            &kp CARET   &kp SI_V      &kp SI_D      &kp SI_L    &kp SI_J  &kp BSPC
+                                &kp LSHFT  &kp SI_A   &kp SI_U     &kp SI_I      &kp SI_E    &kp COMMA          &kp SI_C    &kp SI_T      &kp SI_S      &kp SI_R    &kp SI_N  &kp SQT
+                                &kp LCTRL  &kp SI_Z   &kp SI_Y     &kp SI_X      &kp SEMI    &kp SI_K           &kp SI_M    &kp SI_Q      &kp SI_G      &kp SI_H    &kp SI_F  &kp ESC
+                                                                   &kp LGUI      &mo LOWER   &kp SPACE          &kp RET     &mo RAISE     &kp RALT
                         >;
                 };
 

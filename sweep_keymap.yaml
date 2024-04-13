@@ -3,7 +3,7 @@ layers:
   default:
   - [TAB, B, W, P, O, '''', ^, V, D, L]
   - [J, BSPC, LSHFT, A, U, I, E, ',', C, T]
-  - [S, R, N, '''', LCTRL, Z, Y, X, ;, K]
+  - [S, R, N, '''', LCTRL, Y, Z, X, ;, K]
   - [M, Q, G, H, F, ESC, LGUI, lower, SPACE, RET]
   - [raise, RALT]
   lower:
