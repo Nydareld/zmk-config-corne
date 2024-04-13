@@ -31,37 +31,28 @@ layers:
     - RET
   - [system, RALT]
   raise:
-  - [TAB, '!', '@', '#', $, '%', ^, '&', KP MULTIPLY, (]
+  - [TAB, '!', '@', '#', $, '`', ^, '&', KP MULTIPLY, (]
   - - )
     - BSPC
     - LSHFT
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - \
+    - /
     - UP
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - ''''
     - '-'
     - '='
-  - - '['
-    - ']'
-    - \
-    - '`'
+  - - {t: ▽, type: trans}
+    - '{'
+    - '}'
+    - '%'
     - LCTRL
     - {t: ▽, type: trans}
     - LEFT
     - DOWN
     - RIGHT
-    - {t: ▽, type: trans}
-  - - _
-    - +
-    - '{'
-    - '}'
-    - '|'
-    - '~'
-    - LGUI
-    - {t: ▽, type: trans}
-    - SPACE
-    - RET
+    - '"'
+  - [_, +, '|', '[', ']', '~', LGUI, system, SPACE, RET]
   - - {type: held}
     - RALT
   system:
@@ -76,7 +67,7 @@ layers:
     - RGB SPD
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - PSCRN
     - LCTRL
     - PREV
     - NEXT
@@ -100,7 +91,7 @@ layers:
     - RGB BRI
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - LOCK
     - LGUI
     - {type: held}
     - SPACE
