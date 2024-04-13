@@ -1,10 +1,10 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   default:
-  - [TAB, Q, W, E, R, T, Y, U, I, O]
-  - [P, BSPC, LSHFT, A, S, D, F, G, H, J]
-  - [K, L, ;, '''', LCTRL, Z, X, C, V, B]
-  - [N, M, ',', ., /, ESC, LGUI, lower, SPACE, RET]
+  - [TAB, B, '2', P, O, W, Z, V, D, L]
+  - [J, BSPC, LSHFT, A, U, I, E, ',', C, T]
+  - [S, R, N, '''', LCTRL, '0', Y, X, ':', K]
+  - [M, Q, G, H, F, ESC, LGUI, lower, SPACE, RET]
   - [raise, RALT]
   lower:
   - [TAB, F1, F2, F3, F4, F5, KP 0, KP 7, KP 8, KP 9]
@@ -42,7 +42,7 @@ layers:
     - ''''
     - '-'
     - '='
-  - - {t: ▽, type: trans}
+  - - ;
     - '{'
     - '}'
     - '%'
