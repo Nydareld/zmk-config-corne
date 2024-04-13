@@ -11,5 +11,5 @@ git add sweep_keymap.ortho.svg
 git add sweep_keymap.yaml
 
 
-git commit -am "Update keymap bépo"
+git commit -am "Update keymap qwerty"
 git push origin main

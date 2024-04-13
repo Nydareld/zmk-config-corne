@@ -27,9 +27,9 @@
                                 //                    | GUI | LWR | SPC | _________ | ENT | RSE  | ALT |
 
                         bindings = <
-                                &kp TAB    &kp B   &kp N2    &kp P      &kp O      &kp W              &kp Z    &kp V      &kp D      &kp L    &kp J  &kp BSPC
-                                &kp LSHFT  &kp A   &kp U     &kp I      &kp E      &kp COMMA          &kp C    &kp T      &kp S      &kp R    &kp N  &kp SQT
-                                &kp LCTRL  &kp N0  &kp Y     &kp X      &kp COLON  &kp K              &kp M    &kp Q      &kp G      &kp H    &kp F  &kp ESC
+                                &kp TAB    &kp B   &kp W     &kp P      &kp O        &kp SQT            &kp CARET    &kp V      &kp D      &kp L    &kp J  &kp BSPC
+                                &kp LSHFT  &kp A   &kp U     &kp I      &kp E        &kp COMMA          &kp C    &kp T      &kp S      &kp R    &kp N  &kp SQT
+                                &kp LCTRL  &kp Z   &kp Y     &kp X      &kp SEMI     &kp K              &kp M    &kp Q      &kp G      &kp H    &kp F  &kp ESC
                                                    &kp LGUI  &mo LOWER  &kp SPACE           &kp RET  &mo RAISE  &kp RALT
                         >;
                 };
@@ -45,7 +45,7 @@
                         bindings = <
                                 &kp TAB    &kp F1  &kp F2    &kp F3    &kp F4  &kp F5              &kp KP_N0   &kp KP_N7      &kp KP_N8   &kp KP_N9   &kp EQUAL  &kp BSPC
                                 &kp LSHFT  &kp F6  &kp F7    &kp F8    &kp F9  &kp F10             &kp KP_DOT   &kp KP_N4      &kp KP_N5   &kp KP_N6   &kp KP_MINUS  &kp KP_DIVIDE
-                                &kp LCTRL  &kp F11 &kp F12   &trans    &trans  &trans              &kp KP_COMMA    &kp KP_N1      &kp KP_N2   &kp KP_N3   &kp KP_PLUS   &kp KP_MULTIPLY
+                                &kp LCTRL  &kp F11 &kp F12   &kp HOME  &trans  &kp END             &kp KP_COMMA    &kp KP_N1      &kp KP_N2   &kp KP_N3   &kp KP_PLUS   &kp KP_MULTIPLY
                                                              &kp LGUI  &trans  &kp SPACE           &kp RET   &mo SYSTEM  &kp RALT
                         >;
                 };
@@ -59,7 +59,7 @@
                                 //                    | GUI |     | SPC | _________ | ENT |     | ALT |
                         bindings = <
                                 &kp  TAB  &kp EXCL &kp AT     &kp HASH   &kp DLLR    &kp GRAVE           &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR  &kp RPAR  &kp BSPC
-                                &kp LSHFT &kp BSLH &kp FSLH   &kp UP     &trans      &kp SQT             &kp MINUS &kp EQUAL &kp SEMI          &kp LBRC  &kp RBRC  &kp PRCNT
+                                &kp LSHFT &kp BSLH &kp FSLH   &kp UP     &trans      &kp SQT             &kp MINUS &kp EQUAL &kp SEMI        &kp LBRC  &kp RBRC  &kp PRCNT
                                 &kp LCTRL &trans   &kp LEFT   &kp DOWN   &kp RIGHT   &kp DQT             &kp UNDER &kp PLUS  &kp PIPE        &kp LBKT  &kp RBKT  &kp TILDE
                                                               &kp LGUI   &mo SYSTEM      &kp SPACE           &kp RET   &trans    &kp RALT
                         >;
