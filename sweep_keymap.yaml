@@ -4,8 +4,51 @@ layers:
   - [TAB, B, Z, P, O, '4', '[', V, D, L]
   - [J, BSPC, LSHFT, Q, U, I, E, M, C, T]
   - [S, R, N, '3', LCTRL, W, Y, X, ., K]
-  - [;, A, G, H, F, ESC, LGUI, lower, SPACE, RET]
-  - [raise, RALT]
+  - [;, A, G, H, F, ESC, system, french, SPACE, RET]
+  - [lower, RALT]
+  french:
+  - - TAB
+    - '0'
+    - {t: ▽, type: trans}
+    - '1'
+    - '2'
+    - '7'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - BSPC
+    - LSHFT
+    - RA(0)
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - FR EUR
+    - {t: ▽, type: trans}
+    - '9'
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - KP DIVIDE
+    - LCTRL
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - ESC
+    - LGUI
+    - {type: held}
+    - SPACE
+    - RET
+  - - {t: ▽, type: trans}
+    - RALT
   lower:
   - [TAB, F1, F2, F3, F4, F5, KP 0, KP 7, KP 8, KP 9]
   - ['=', BSPC, LSHFT, F6, F7, F8, F9, F10, KP DOT, KP 4]
@@ -26,33 +69,16 @@ layers:
     - KP PLUS
     - KP MULTIPLY
     - LGUI
-    - {type: held}
+    - {t: ▽, type: trans}
     - SPACE
     - RET
-  - [system, RALT]
+  - - {t: raise, type: held}
+    - RALT
   raise:
   - [TAB, '!', '@', '#', $, '`', ^, '&', KP MULTIPLY, (]
-  - - )
-    - BSPC
-    - LSHFT
-    - \
-    - /
-    - UP
-    - {t: ▽, type: trans}
-    - ''''
-    - '-'
-    - '='
-  - - ;
-    - '{'
-    - '}'
-    - '%'
-    - LCTRL
-    - {t: ▽, type: trans}
-    - LEFT
-    - DOWN
-    - RIGHT
-    - '"'
-  - [_, +, '|', '[', ']', '~', LGUI, system, SPACE, RET]
+  - [), BSPC, LSHFT, \, '*', UP, LS(STAR), '''', '-', '=']
+  - [;, '{', '}', '%', LCTRL, /, LEFT, DOWN, RIGHT, '"']
+  - [_, +, '|', '[', ']', '~', LGUI, raise, SPACE, RET]
   - - {type: held}
     - RALT
   system:
@@ -92,9 +118,9 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - LOCK
-    - LGUI
-    - {type: held}
+    - {t: LGUI, type: held}
+    - {t: ▽, type: trans}
     - SPACE
     - RET
-  - - {type: held}
+  - - {t: ▽, type: trans}
     - RALT
