@@ -106,7 +106,7 @@ layers:
     - RA(0)
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - ZMK UNICODE SINGLE(euro sign, 2, 0, A, C)
     - {t: ▽, type: trans}
     - '9'
     - {t: ▽, type: trans}
