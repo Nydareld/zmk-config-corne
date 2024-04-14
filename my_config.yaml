@@ -244,6 +244,8 @@ parse_config:
     KP_MULTIPLY: '*'
     KP_DIVIDE: '/'
     KP_EQUAL: '='
+    LS(M): '?'
+
   zmk_combos: {"combo_esc": {"align": "top", "offset": 0.5}}
 
 

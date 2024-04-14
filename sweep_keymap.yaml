@@ -48,7 +48,7 @@ layers:
   raise:
   - TAB
   - '!'
-  - LS(M)
+  - '?'
   - RA(3)
   - $
   - ²
