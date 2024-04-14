@@ -114,8 +114,8 @@ layers:
   - {t: ▽, type: trans}
   - RGB OFF
   - LSHFT
-  - PG UP
-  - PG DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - BRI DN
   - BRI UP
   - MUTE
