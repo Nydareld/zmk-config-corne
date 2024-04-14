@@ -16,7 +16,7 @@
 - [ZMK](https://zmk.dev/)
 - [Keymap drawer](https://pypi.org/project/keymap-drawer/)
 
-## current dispostion
+## Photo
 
 ![Alt Text](photo.png)
 
