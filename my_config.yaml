@@ -45,7 +45,9 @@ parse_config:
     "&fr_e_grave_lower" : "è",
     "&fr_e_grave_upper" : "È",
     "&fr_c_cedilla_lower": "ç",
-    "&fr_c_cedilla_upper": "Ç"
+    "&fr_c_cedilla_upper": "Ç",
+    "&less_than" : "<",
+    "&more_than" : ">",
   }
   sticky_label: sticky
   toggle_label: toggle
