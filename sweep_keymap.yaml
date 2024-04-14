@@ -10,54 +10,11 @@ layers:
     - H
     - F
     - ESC
-    - {t: LGUI, h: system}
-    - french
+    - {t: LGUI, h: french}
+    - lower
     - SPACE
     - RET
-  - [lower, RALT]
-  french:
-  - - TAB
-    - '0'
-    - {t: ▽, type: trans}
-    - '1'
-    - '2'
-    - '7'
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - BSPC
-    - LSHFT
-    - RA(0)
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - FR EUR
-    - {t: ▽, type: trans}
-    - '9'
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - '3'
-    - LCTRL
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - ESC
-    - LGUI
-    - {type: held}
-    - SPACE
-    - RET
-  - - {t: ▽, type: trans}
-    - RALT
+  - [raise, RALT]
   lower:
   - [TAB, F1, F2, F3, F4, F5, KP 0, KP 7, KP 8, KP 9]
   - ['=', BSPC, LSHFT, F6, F7, F8, F9, F10, KP DOT, KP 4]
@@ -78,16 +35,15 @@ layers:
     - KP PLUS
     - KP MULTIPLY
     - LGUI
-    - {t: ▽, type: trans}
+    - {type: held}
     - SPACE
     - RET
-  - - {t: raise, type: held}
-    - RALT
+  - [system, RALT]
   raise:
   - [TAB, '!', '@', '#', $, '`', ^, '&', KP MULTIPLY, (]
   - [), BSPC, LSHFT, \, '*', UP, LS(STAR), '''', '-', '=']
   - [;, '{', '}', '%', LCTRL, /, LEFT, DOWN, RIGHT, '"']
-  - [_, +, '|', '[', ']', '~', LGUI, raise, SPACE, RET]
+  - [_, +, '|', '[', ']', '~', LGUI, system, SPACE, RET]
   - - {type: held}
     - RALT
   system:
@@ -127,6 +83,49 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - LOCK
+    - LGUI
+    - {type: held}
+    - SPACE
+    - RET
+  - - {type: held}
+    - RALT
+  french:
+  - - TAB
+    - '0'
+    - {t: ▽, type: trans}
+    - '1'
+    - '2'
+    - '7'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - BSPC
+    - LSHFT
+    - RA(0)
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - FR EUR
+    - {t: ▽, type: trans}
+    - '9'
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '3'
+    - LCTRL
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - ESC
     - {t: LGUI, type: held}
     - {t: ▽, type: trans}
     - SPACE
