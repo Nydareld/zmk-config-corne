@@ -37,10 +37,15 @@ parse_config:
   preprocess: true
   skip_binding_parsing: false
   raw_binding_map: {
-    "&fr_a_grave" : "à",
+    "&fr_a_grave_lower" : "à",
+    "&fr_a_grave_upper" : "À",
     "&euro_sign_lower" : "€",
-    "&fr_e_acute" : "é",
-    "&fr_e_grave" : "è"
+    "&fr_e_acute_lower" : "é",
+    "&fr_e_acute_upper" : "É",
+    "&fr_e_grave_lower" : "è",
+    "&fr_e_grave_upper" : "È",
+    "&fr_c_cedilla_lower": "ç",
+    "&fr_c_cedilla_upper": "Ç"
   }
   sticky_label: sticky
   toggle_label: toggle
@@ -209,6 +214,7 @@ parse_config:
     O    : 'O'
     P    : 'P'
     LBKT  : '^'
+    LS(LBKT)  : '¨'
     RBKT  : '$'
     A    : 'Q'
     S    : 'S'
@@ -223,6 +229,7 @@ parse_config:
     SQT  : 'ù'
     STAR : '*'
     STAR : '<'
+    LS(STAR) : '>'
     Z    : 'W'
     X    : 'X'
     C    : 'C'
@@ -258,6 +265,7 @@ parse_config:
     RA(N3): '#'
     RA(N0): '@'
     RA(N8): '\'
+    RA(N7): '`'
     RA(N6): '|'
     LS(DOT): '/'
     $euro_sign: '€'

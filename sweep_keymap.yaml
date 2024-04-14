@@ -53,7 +53,7 @@ layers:
   - $
   - ²
   - ^
-  - {t: ▽, type: trans}
+  - ¨
   - '*'
   - (
   - )
@@ -62,11 +62,11 @@ layers:
   - \
   - <
   - UP
-  - LS(STAR)
+  - '>'
   - ''''
   - '-'
   - '='
-  - M
+  - '`'
   - '{'
   - '}'
   - '%'
@@ -133,7 +133,7 @@ layers:
   - RALT
   french:
   - TAB
-  - à
+  - {t: à, s: À}
   - {t: ▽, type: trans}
   - '&'
   - €
@@ -148,9 +148,9 @@ layers:
   - '@'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - é
-  - è
-  - {t: '&fr_c_cedilla_lower', s: '&fr_c_cedilla_upper'}
+  - {t: é, s: É}
+  - {t: è, s: È}
+  - {t: ç, s: Ç}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

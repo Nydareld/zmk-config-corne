@@ -69,10 +69,10 @@ ZMK_UNICODE_PAIR(fr_y_diaeresis,    N0, N0, F, F,    N0, N1, N7, N8) // ÿ/Ÿ
                 raise_layer {
                         label = "RAISE";
                         bindings = <
-                                &kp TAB   &kp FR_EXLM &kp FR_QUES   &kp FR_HASH  &kp FR_DLR  &kp FR_SUP2             &kp FR_CIRC  &trans    &kp KP_MULTIPLY &kp FR_LPRN  &kp FR_RPRN  &kp BSPC
-                                &kp LSHFT &kp FR_BSLS &kp FR_LABK   &kp UP       &kp FR_RABK &kp FR_QUOT             &kp FR_MINS  &kp EQUAL &kp FR_M        &kp FR_LCBR  &kp FR_RCBR  &kp FR_PERC
-                                &kp LCTRL &kp FR_SLSH &kp LEFT      &kp DOWN     &kp RIGHT   &kp FR_DQUO             &kp FR_UNDS  &kp PLUS  &kp FR_PIPE     &kp FR_LBRC  &kp FR_RBRC  &kp TILDE
-                                                                    &kp LGUI     &mo SYSTEM  &kp SPACE               &kp RET      &trans    &kp RALT
+                                &kp TAB   &kp FR_EXLM &kp FR_QUES   &kp FR_HASH  &kp FR_DLR  &kp FR_SUP2             &kp FR_CIRC  &kp FR_DIAE  &kp KP_MULTIPLY  &kp FR_LPRN  &kp FR_RPRN  &kp BSPC
+                                &kp LSHFT &kp FR_BSLS &kp FR_LABK   &kp UP       &kp FR_RABK &kp FR_QUOT             &kp FR_MINS  &kp EQUAL    &kp FR_GRV       &kp FR_LCBR  &kp FR_RCBR  &kp FR_PERC
+                                &kp LCTRL &kp FR_SLSH &kp LEFT      &kp DOWN     &kp RIGHT   &kp FR_DQUO             &kp FR_UNDS  &kp PLUS     &kp FR_PIPE      &kp FR_LBRC  &kp FR_RBRC  &kp TILDE
+                                                                    &kp LGUI     &mo SYSTEM  &kp SPACE               &kp RET      &trans       &kp RALT
                         >;
                 };
 
