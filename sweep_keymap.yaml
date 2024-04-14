@@ -102,18 +102,18 @@ layers:
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - BSPC
-    - LSHFT
-    - RA(0)
+    - TAB
+    - '0'
     - {t: ▽, type: trans}
+    - '1'
+    - '2'
+    - '7'
     - {t: ▽, type: trans}
-    - FR EUR
-    - {t: ▽, type: trans}
-    - '9'
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - '3'
+    - BSPC
     - LCTRL
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
