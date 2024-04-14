@@ -27,12 +27,6 @@ ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)  // €
 
                 default_layer {
                         label = "BASE";
-                                // -----------------------------------------------------------------------------------------
-                                // | TAB  |  Q  |  W  |  E  |  R  |  T  | _________ |  Y  |  U   |  I  |  O  |  P  | BKSP |
-                                // | SHFT |  A  |  S  |  D  |  F  |  G  | _________ |  H  |  J   |  K  |  L  |  ;  |  '   |
-                                // | CTRL |  Z  |  X  |  C  |  V  |  B  | _________ |  N  |  M   |  ,  |  .  |  /  | ESC  |
-                                //                    | GUI | LWR | SPC | _________ | ENT | RSE  | ALT |
-
                         bindings = <
                                 &kp TAB    &kp FR_B   &kp FR_W     &kp FR_P          &kp FR_O       &kp FR_QUOT             &kp FR_CIRC   &kp FR_V      &kp FR_D      &kp FR_L    &kp FR_J  &kp BSPC
                                 &kp LSHFT  &kp FR_A   &kp FR_U     &kp FR_I          &kp FR_E       &kp FR_COMM             &kp FR_C      &kp FR_T      &kp FR_S      &kp FR_R    &kp FR_N  &kp FR_DQUO
@@ -45,12 +39,6 @@ ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)  // €
 
                 lower_layer {
                         label = "LOWER";
-                                // -----------------------------------------------------------------------------------------
-                                // | TAB  |  1  |  2  |  3  |  4  |  5  | _________ |  6   |  7   |  8    |  9     |  0    | BKSP |
-                                // | SHFT |     |     |     |     |     | _________ | LEFT | DOWN |  UP   | RIGHT  |       |      |
-                                // | CTRL | F1  | F2  | F3  | F4  | F5  | _________ | F6   | F7   |  F8   | F9     |  F10  | F11  |
-                                //                    | GUI |     | SPC | _________ | ENT  | SYS  |  RALT |
- 
                         bindings = <
                                 &kp TAB    &kp F1  &kp F2    &kp F3    &kp F4  &kp F5              &kp KP_N0   &kp KP_N7      &kp KP_N8   &kp KP_N9   &kp EQUAL  &kp BSPC
                                 &kp LSHFT  &kp F6  &kp F7    &kp F8    &kp F9  &kp F10             &kp KP_DOT   &kp KP_N4      &kp KP_N5   &kp KP_N6   &kp KP_MINUS  &kp KP_DIVIDE
@@ -61,11 +49,6 @@ ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)  // €
 
                 raise_layer {
                         label = "RAISE";
-                                // -----------------------------------------------------------------------------------------
-                                // |  TAB |  !  |  @  |  #  |  $  |  %  | _________ |  ^  |  &  |  *  |  (  |  )  | BKSP |
-                                // | SHFT |     |     |     |     |     | _________ |  -  |  =  |  [  |  ]  |  \  |  `   |
-                                // | CTRL |     |     |     |     |     | _________ |  _  |  +  |  {  |  }  | "|" |  ~   |
-                                //                    | GUI |     | SPC | _________ | ENT |     | ALT |
                         bindings = <
                                 &kp TAB   &kp FR_EXLM &kp FR_QUES   &kp FR_HASH  &kp FR_DLR  &kp FR_SUP2             &kp FR_CIRC  &trans    &kp KP_MULTIPLY &kp FR_LPRN  &kp FR_RPRN  &kp BSPC
                                 &kp LSHFT &kp FR_BSLS &kp FR_LABK   &kp UP       &kp FR_RABK &kp FR_QUOT             &kp FR_MINS  &kp EQUAL &kp FR_M        &kp FR_LCBR  &kp FR_RCBR  &kp FR_PERC
@@ -76,24 +59,17 @@ ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)  // €
 
                 system_layer {
                         label = "SYSTEM";
-                                // -----------------------------------------------------------------------------------------
-                                // | BTCLR| BT1  | BT2  | BT3   | BT4   | BT5        | _________ |     |     |     |     |     |   |
-                                // | CTRL | Prev | Next | Vol - | Vol + | Play/Pause | _________ |     |     |     |     |     |    |
-                                // | SHFT |      |      | C_BRI_DN | C_BRI_UP | MUTE       | _________ |     |     | RGB_INC | RGB_DOWN | RGB_ON |  RGB_OFF   |
-                                //                      | GUI   |       | SPC        | _________ | ENT |  EP_ON  | EP_OFF |
                         bindings = <
-                                &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4               &trans   &rgb_ug RGB_SPI &rgb_ug RGB_SPD  &trans  &trans &kp PSCRN
-                                &kp LCTRL   &kp C_PREV    &kp C_NEXT    &kp C_VOL_DN   &kp C_VOL_UP  &kp C_PP                   &trans   &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &trans  &trans &rgb_ug RGB_OFF 
-                                &kp LSHFT   &trans        &trans   &kp C_BRI_DN   &kp C_BRI_UP  &kp C_MUTE                 &trans   &rgb_ug RGB_BRD &rgb_ug RGB_BRI  &trans  &trans &kp K_LOCK    
-                                                                        &kp LGUI       &trans        &kp SPACE                  &kp RET  &trans  &kp RALT
+                                &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4               &trans   &rgb_ug RGB_SPI &rgb_ug RGB_SPD  &trans  &trans &kp PSCRN
+                                &kp LCTRL   &kp C_PREV    &kp C_NEXT     &kp C_VOL_DN   &kp C_VOL_UP  &kp C_PP                   &trans   &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &trans  &trans &rgb_ug RGB_OFF 
+                                &kp LSHFT   &kp PAGE_UP   &kp PAGE_DOWN  &kp C_BRI_DN   &kp C_BRI_UP  &kp C_MUTE                 &trans   &rgb_ug RGB_BRD &rgb_ug RGB_BRI  &trans  &trans &kp K_LOCK    
+                                                                         &kp LGUI       &trans        &kp SPACE                  &kp RET  &trans  &kp RALT
                         >;
                 };
 
 
                 french_layer {
                         label = "FRENCH";
- 
-                             // &kp LSHFT  &kp FR_AT    &trans &trans       &kp FR_EUR    &trans                &kp FR_CCED  &trans  &trans &trans &trans   &kp FR_DQUO
                         bindings = <
                                 &kp TAB    &kp FR_AGRV  &trans &kp FR_AMPR  &euro_sign     &trans                &trans       &trans  &trans &trans &trans   &kp BSPC
                                 &kp LSHFT  &kp FR_AT    &trans &trans       &kp FR_EACU    &kp FR_EGRV           &kp FR_CCED  &trans  &trans &trans &trans   &kp FR_DQUO
