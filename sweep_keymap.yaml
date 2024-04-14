@@ -105,9 +105,9 @@ layers:
     - LSHFT
     - RA(0)
     - {t: ▽, type: trans}
-    - '1'
-    - '2'
-    - '7'
+    - {t: ▽, type: trans}
+    - FR EUR
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
