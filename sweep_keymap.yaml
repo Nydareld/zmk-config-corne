@@ -133,10 +133,10 @@ layers:
   - RALT
   french:
   - TAB
-  - '&fr_a_grave'
+  - à
   - {t: ▽, type: trans}
   - '&'
-  - '&euro_sign_lower'
+  - €
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -145,12 +145,12 @@ layers:
   - {t: ▽, type: trans}
   - BSPC
   - LSHFT
-  - RA(0)
+  - '@'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - é
-  - '&fr_e_grave'
-  - '&fr_c_cedilla'
+  - è
+  - {t: '&fr_c_cedilla_lower', s: '&fr_c_cedilla_upper'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

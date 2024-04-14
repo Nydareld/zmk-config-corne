@@ -37,7 +37,10 @@ parse_config:
   preprocess: true
   skip_binding_parsing: false
   raw_binding_map: {
-    "&fr_e_acute" : "é"
+    "&fr_a_grave" : "à",
+    "&euro_sign_lower" : "€",
+    "&fr_e_acute" : "é",
+    "&fr_e_grave" : "è"
   }
   sticky_label: sticky
   toggle_label: toggle
@@ -253,6 +256,7 @@ parse_config:
     RA(N5): '['
     RA(MINUS): ']'
     RA(N3): '#'
+    RA(N0): '@'
     RA(N8): '\'
     RA(N6): '|'
     LS(DOT): '/'
