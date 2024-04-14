@@ -102,6 +102,11 @@ path.combo {
     visibility: hidden;
 }
 /* End Tabler Icons Cleanup */
+
+ g .key.keypos-0 > rect.key { fill: #9FEDE7; } g .key.keypos-1 > rect.key { fill: #FEF0AC; } g .key.keypos-2 > rect.key { fill: #FEF0AC; } g .key.keypos-3 > rect.key { fill: #FEF0AC; } g .key.keypos-4 > rect.key { fill: #FEF0AC; } g .key.keypos-5 > rect.key { fill: #B897E9; } g .key.keypos-6 > rect.key { fill: #B897E9; } g .key.keypos-7 > rect.key { fill: #FEF0AC; } g .key.keypos-8 > rect.key { fill: #FEF0AC; } g .key.keypos-9 > rect.key { fill: #FEF0AC; } g .key.keypos-10 > rect.key { fill: #FEF0AC; } g .key.keypos-11 > rect.key { fill: #9FEDE7; } g .key.keypos-12 > rect.key { fill: #9FEDE7; } g .key.keypos-13 > rect.key { fill: #FEF0AC; } g .key.keypos-14 > rect.key { fill: #FEF0AC; } g .key.keypos-15 > rect.key { fill: #FEF0AC; } g .key.keypos-16 > rect.key { fill: #FEF0AC; } g .key.keypos-17 > rect.key { fill: #B897E9; } g .key.keypos-18 > rect.key { fill: #B897E9; } g .key.keypos-19 > rect.key { fill: #FEF0AC; } g .key.keypos-20 > rect.key { fill: #FEF0AC; } g .key.keypos-21 > rect.key { fill: #FEF0AC; } g .key.keypos-22 > rect.key { fill: #FEF0AC; } g .key.keypos-23 > rect.key { fill: #9FEDE7; } g .key.keypos-24 > rect.key { fill: #9FEDE7; } g .key.keypos-25 > rect.key { fill: #FEF0AC; } g .key.keypos-26 > rect.key { fill: #FEF0AC; } g .key.keypos-27 > rect.key { fill: #FEF0AC; } g .key.keypos-28 > rect.key { fill: #FEF0AC; } g .key.keypos-29 > rect.key { fill: #B897E9; } g .key.keypos-30 > rect.key { fill: #B897E9; } g .key.keypos-31 > rect.key { fill: #FEF0AC; } g .key.keypos-32 > rect.key { fill: #FEF0AC; } g .key.keypos-33 > rect.key { fill: #FEF0AC; } g .key.keypos-34 > rect.key { fill: #FEF0AC; } g .key.keypos-35 > rect.key { fill: #9FEDE7; } g .key.keypos-36 > rect.key { fill: #9FEDE7; } g .key.keypos-36 > rect.key.held { stroke: #4bddd2; stroke-width: 3;} g .key.keypos-37 > rect.key { fill: #B897E9; } g .key.keypos-37 > rect.key.held { stroke: #8147d8; stroke-width: 3;} g .key.keypos-38 > rect.key { fill: #FFD2CF; } g .key.keypos-38 > rect.key.held { stroke: #ff655b; stroke-width: 3;} g .key.keypos-39 > rect.key { fill: #FFD2CF; } g .key.keypos-39 > rect.key.held { stroke: #ff655b; stroke-width: 3;} g .key.keypos-40 > rect.key { fill: #9FEDE7; } g .key.keypos-40 > rect.key.held { stroke: #4bddd2; stroke-width: 3;} g .key.keypos-41 > rect.key { fill: #B897E9; } g .key.keypos-41 > rect.key.held { stroke: #8147d8; stroke-width: 3;}
+
+
+
 </style>
 <g transform="translate(30, 0)" class="layer-default">
 <text x="0" y="28" class="label">default:</text>
@@ -977,7 +982,6 @@ path.combo {
 </g>
 <g transform="translate(224, 205)" class="key held keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<text x="0" y="0" class="key held tap">LGUI</text>
 </g>
 <g transform="translate(286, 213) rotate(15.0)" class="key trans keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

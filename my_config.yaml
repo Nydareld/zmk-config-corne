@@ -27,7 +27,68 @@ draw_config:
     rel_h: 12
     rx: 4
     ry: 4
-  svg_extra_style: ''
+
+# #9FEDE7
+# #B897E9
+# #FFD2CF
+# #FEF0AC
+
+  svg_extra_style: '
+    g .key.keypos-0 > rect.key { fill: #9FEDE7; }
+    g .key.keypos-1 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-2 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-3 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-4 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-5 > rect.key { fill: #B897E9; }
+    g .key.keypos-6 > rect.key { fill: #B897E9; }
+    g .key.keypos-7 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-8 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-9 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-10 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-11 > rect.key { fill: #9FEDE7; }
+    g .key.keypos-12 > rect.key { fill: #9FEDE7; }
+    g .key.keypos-13 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-14 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-15 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-16 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-17 > rect.key { fill: #B897E9; }
+    g .key.keypos-18 > rect.key { fill: #B897E9; }
+    g .key.keypos-19 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-20 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-21 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-22 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-23 > rect.key { fill: #9FEDE7; }
+    g .key.keypos-24 > rect.key { fill: #9FEDE7; }
+    g .key.keypos-25 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-26 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-27 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-28 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-29 > rect.key { fill: #B897E9; }
+    g .key.keypos-30 > rect.key { fill: #B897E9; }
+    g .key.keypos-31 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-32 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-33 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-34 > rect.key { fill: #FEF0AC; }
+    g .key.keypos-35 > rect.key { fill: #9FEDE7; }
+    g .key.keypos-36 > rect.key { fill: #9FEDE7; }
+    g .key.keypos-36 > rect.key.held { stroke: #4bddd2; stroke-width: 3;}
+    g .key.keypos-37 > rect.key { fill: #B897E9; }
+    g .key.keypos-37 > rect.key.held { stroke: #8147d8; stroke-width: 3;}
+    g .key.keypos-38 > rect.key { fill: #FFD2CF; }
+    g .key.keypos-38 > rect.key.held { stroke: #ff655b; stroke-width: 3;}
+    g .key.keypos-39 > rect.key { fill: #FFD2CF; }
+    g .key.keypos-39 > rect.key.held { stroke: #ff655b; stroke-width: 3;}
+    g .key.keypos-40 > rect.key { fill: #9FEDE7; }
+    g .key.keypos-40 > rect.key.held { stroke: #4bddd2; stroke-width: 3;}
+    g .key.keypos-41 > rect.key { fill: #B897E9; }
+    g .key.keypos-41 > rect.key.held { stroke: #8147d8; stroke-width: 3;}
+
+
+  
+  
+  '
+
+
   shrink_wide_legends: 7
   glyph_tap_size: 14
   glyph_hold_size: 12

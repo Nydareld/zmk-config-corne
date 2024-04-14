@@ -168,7 +168,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ESC
-  - {t: LGUI, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - SPACE
   - RET
