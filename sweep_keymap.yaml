@@ -106,14 +106,14 @@ layers:
     - RA(0)
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - FR EUR
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - '9'
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - BSPC
+    - '3'
     - LCTRL
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
