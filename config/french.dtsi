@@ -1,4 +1,3 @@
-/* French letters */
 ZMK_UNICODE_PAIR(fr_ae,             N0, N0, E, N6,   N0, N0, C, N6)  // æ/Æ
 ZMK_UNICODE_PAIR(fr_oe,             N0, N1, N5, N3,  N0, N1, N5, N2) // œ/Œ
 ZMK_UNICODE_PAIR(fr_a_grave,        N0, N0, E, N0,   N0, N0, C, N0)  // à/À
