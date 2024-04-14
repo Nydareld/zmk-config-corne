@@ -155,3 +155,5 @@
 // Row 2
 #define FR_EURO RA(KC_E)   // €
 #define FR_CURR RA(FR_DLR) // ¤
+
+

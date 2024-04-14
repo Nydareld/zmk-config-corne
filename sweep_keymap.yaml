@@ -1,125 +1,176 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  default:
-  - [TAB, B, Z, P, O, '4', '[', V, D, L]
-  - [J, BSPC, LSHFT, Q, U, I, E, M, C, T]
-  - [S, R, N, '3', LCTRL, W, Y, X, ., K]
-  - [;, A, G, H, F, ESC, french, lower, SPACE, RET]
-  - [raise, RALT]
+  default: [TAB, B, W, P, O, '''', ^, V, D, L, J, BSPC, LSHFT, A, U, I, E, ',', C, T, S, R, N, '"', LCTRL, Z, Y, X, ':', K, M, Q, G, H, F, ESC, french, lower, SPACE,
+    RET, raise, RALT]
   lower:
-  - [TAB, F1, F2, F3, F4, F5, KP 0, KP 7, KP 8, KP 9]
-  - ['=', BSPC, LSHFT, F6, F7, F8, F9, F10, KP DOT, KP 4]
-  - - KP 5
-    - KP 6
-    - KP MINUS
-    - KP DIVIDE
-    - LCTRL
-    - F11
-    - F12
-    - HOME
-    - {t: ▽, type: trans}
-    - END
-  - - KP COMMA
-    - KP 1
-    - KP 2
-    - KP 3
-    - KP PLUS
-    - KP MULTIPLY
-    - LGUI
-    - {type: held}
-    - SPACE
-    - RET
-  - [system, RALT]
+  - TAB
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - '0'
+  - '7'
+  - '8'
+  - '9'
+  - '='
+  - BSPC
+  - LSHFT
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - .
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - /
+  - LCTRL
+  - F11
+  - F12
+  - HOME
+  - {t: ▽, type: trans}
+  - END
+  - ','
+  - '1'
+  - '2'
+  - '3'
+  - +
+  - '*'
+  - LGUI
+  - {type: held}
+  - SPACE
+  - RET
+  - system
+  - RALT
   raise:
-  - [TAB, '!', '@', '#', $, '`', ^, '&', KP MULTIPLY, (]
-  - [), BSPC, LSHFT, \, '*', UP, LS(STAR), '''', '-', '=']
-  - [;, '{', '}', '%', LCTRL, /, LEFT, DOWN, RIGHT, '"']
-  - [_, +, '|', '[', ']', '~', LGUI, system, SPACE, RET]
-  - - {type: held}
-    - RALT
+  - TAB
+  - '!'
+  - LS(M)
+  - RA(3)
+  - $
+  - ²
+  - ^
+  - {t: ▽, type: trans}
+  - '*'
+  - (
+  - )
+  - BSPC
+  - LSHFT
+  - RA(8)
+  - <
+  - UP
+  - LS(STAR)
+  - ''''
+  - '-'
+  - '='
+  - M
+  - RA(4)
+  - RA(EQUAL)
+  - LS(SQT)
+  - LCTRL
+  - LS(DOT)
+  - LEFT
+  - DOWN
+  - RIGHT
+  - '"'
+  - _
+  - +
+  - RA(6)
+  - RA(5)
+  - RA(MINUS)
+  - '~'
+  - LGUI
+  - system
+  - SPACE
+  - RET
+  - {type: held}
+  - RALT
   system:
-  - - BT CLR
-    - {t: BT, h: '0'}
-    - {t: BT, h: '1'}
-    - {t: BT, h: '2'}
-    - {t: BT, h: '3'}
-    - {t: BT, h: '4'}
-    - {t: ▽, type: trans}
-    - RGB SPI
-    - RGB SPD
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - PSCRN
-    - LCTRL
-    - PREV
-    - NEXT
-    - VOL DN
-    - VOL UP
-    - PP
-    - {t: ▽, type: trans}
-    - RGB ON
-  - - RGB EFF
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - RGB OFF
-    - LSHFT
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - BRI DN
-    - BRI UP
-    - MUTE
-  - - {t: ▽, type: trans}
-    - RGB BRD
-    - RGB BRI
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - LOCK
-    - LGUI
-    - {type: held}
-    - SPACE
-    - RET
-  - - {type: held}
-    - RALT
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - RGB SPI
+  - RGB SPD
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PSCRN
+  - LCTRL
+  - PREV
+  - NEXT
+  - VOL DN
+  - VOL UP
+  - PP
+  - {t: ▽, type: trans}
+  - RGB ON
+  - RGB EFF
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RGB OFF
+  - LSHFT
+  - PG UP
+  - PG DOWN
+  - BRI DN
+  - BRI UP
+  - MUTE
+  - {t: ▽, type: trans}
+  - RGB BRD
+  - RGB BRI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LOCK
+  - LGUI
+  - {type: held}
+  - SPACE
+  - RET
+  - {type: held}
+  - RALT
   french:
-  - - TAB
-    - '0'
-    - {t: ▽, type: trans}
-    - '1'
-    - '&euro_sign_lower'
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - BSPC
-    - LSHFT
-    - RA(0)
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - '2'
-    - '7'
-    - '9'
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - '3'
-    - LCTRL
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - ESC
-    - {t: LGUI, type: held}
-    - {t: ▽, type: trans}
-    - SPACE
-    - RET
-  - - {t: ▽, type: trans}
-    - RALT
+  - TAB
+  - à
+  - {t: ▽, type: trans}
+  - '&'
+  - '&euro_sign_lower'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BSPC
+  - LSHFT
+  - RA(0)
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - é
+  - è
+  - ç
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '"'
+  - LCTRL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ESC
+  - {t: LGUI, type: held}
+  - {t: ▽, type: trans}
+  - SPACE
+  - RET
+  - {t: ▽, type: trans}
+  - RALT
