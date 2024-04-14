@@ -106,7 +106,7 @@ layers:
     - RA(0)
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - euro sign
+    - '&euro_sign_lower'
     - {t: ▽, type: trans}
     - '9'
     - {t: ▽, type: trans}
