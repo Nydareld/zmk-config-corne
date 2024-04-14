@@ -49,9 +49,9 @@ ZMK_UNICODE_PAIR(fr_y_diaeresis,    N0, N0, F, F,    N0, N1, N7, N8) // ÿ/Ÿ
                 default_layer {
                         label = "BASE";
                         bindings = <
-                                &kp TAB    &kp FR_B   &kp FR_W     &kp FR_P          &kp FR_O       &kp FR_QUOT             &kp FR_CIRC   &kp FR_V      &kp FR_D      &kp FR_L    &kp FR_J  &kp BSPC
-                                &kp LSHFT  &kp FR_A   &kp FR_U     &kp FR_I          &kp FR_E       &kp FR_COMM             &kp FR_C      &kp FR_T      &kp FR_S      &kp FR_R    &kp FR_N  &kp FR_DQUO
-                                &kp LCTRL  &kp FR_Z   &kp FR_Y     &kp FR_X          &kp FR_COLN    &kp FR_K                &kp FR_M      &kp FR_Q      &kp FR_G      &kp FR_H    &kp FR_F  &kp ESC
+                                &kp TAB    &kp FR_B   &kp FR_W     &kp FR_P          &kp FR_O       &kp FR_SCLN             &kp FR_CIRC   &kp FR_V      &kp FR_D      &kp FR_L    &kp FR_J  &kp BSPC
+                                &kp LSHFT  &kp FR_A   &kp FR_U     &kp FR_I          &kp FR_E       &kp FR_COMM             &kp FR_C      &kp FR_T      &kp FR_S      &kp FR_R    &kp FR_N  &kp FR_M
+                                &kp LCTRL  &kp FR_Z   &kp FR_Y     &kp FR_X          &kp FR_COLN    &kp FR_K                &kp FR_QUOT   &kp FR_Q      &kp FR_G      &kp FR_H    &kp FR_F  &kp ESC
                                                                    &mo FRENCH        &mo LOWER      &kp SPACE               &kp RET       &mo RAISE     &kp RALT
                         >;
                 };
