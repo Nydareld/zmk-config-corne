@@ -4,12 +4,16 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/rgb.h>
 #include "keymap_bepo.h"
+#include "helper.h"
 
 #define DEFAULT  0
 #define LOWER    1
 #define RAISE    2
 #define SYSTEM   3
 #define FRENCH   4
+
+ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)  // €
+
 
 &led_strip {
     chain-length = <27>;
@@ -90,10 +94,10 @@
  
                              // &kp LSHFT  &kp FR_AT    &trans &trans       &kp FR_EUR    &trans                &kp FR_CCED  &trans  &trans &trans &trans   &kp FR_DQUO
                         bindings = <
-                                &kp TAB    &kp FR_AGRV  &trans &kp FR_AMPR  &kp FR_EACU   &kp FR_EGRV           &trans       &trans  &trans &trans &trans   &kp BSPC
-                                &kp LSHFT  &kp FR_AT    &trans &trans       &kp FR_EURO   &trans                &kp FR_CCED  &trans  &trans &trans &trans   &kp FR_DQUO
-                                &kp LCTRL  &trans       &trans &trans       &trans        &trans                &trans       &trans  &trans &trans &trans   &kp ESC
-                                                               &kp LGUI     &trans        &kp SPACE             &kp RET      &trans  &kp RALT
+                                &kp TAB    &kp FR_AGRV  &trans &kp FR_AMPR  &kp FR_EACU    &kp FR_EGRV           &trans       &trans  &trans &trans &trans   &kp BSPC
+                                &kp LSHFT  &kp FR_AT    &trans &trans       &kp euro_sign  &trans                &kp FR_CCED  &trans  &trans &trans &trans   &kp FR_DQUO
+                                &kp LCTRL  &trans       &trans &trans       &trans         &trans                &trans       &trans  &trans &trans &trans   &kp ESC
+                                                               &kp LGUI     &trans         &kp SPACE             &kp RET      &trans  &kp RALT
                         >;
                 };
         };
