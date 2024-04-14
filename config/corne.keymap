@@ -29,10 +29,10 @@
                                 //                    | GUI | LWR | SPC | _________ | ENT | RSE  | ALT |
 
                         bindings = <
-                                &kp TAB    &kp FR_B   &kp FR_W     &kp FR_P      &kp FR_O       &kp FR_QUOT             &kp FR_CIRC   &kp FR_V      &kp FR_D      &kp FR_L    &kp FR_J  &kp BSPC
-                                &kp LSHFT  &kp FR_A   &kp FR_U     &kp FR_I      &kp FR_E       &kp FR_COMM             &kp FR_C      &kp FR_T      &kp FR_S      &kp FR_R    &kp FR_N  &kp FR_DQUO
-                                &kp LCTRL  &kp FR_Z   &kp FR_Y     &kp FR_X      &kp FR_COLN    &kp FR_K                &kp FR_M      &kp FR_Q      &kp FR_G      &kp FR_H    &kp FR_F  &kp ESC
-                                                                   &mo FRENCH    &mo LOWER      &kp SPACE               &kp RET       &mo RAISE     &kp RALT
+                                &kp TAB    &kp FR_B   &kp FR_W     &kp FR_P          &kp FR_O       &kp FR_QUOT             &kp FR_CIRC   &kp FR_V      &kp FR_D      &kp FR_L    &kp FR_J  &kp BSPC
+                                &kp LSHFT  &kp FR_A   &kp FR_U     &kp FR_I          &kp FR_E       &kp FR_COMM             &kp FR_C      &kp FR_T      &kp FR_S      &kp FR_R    &kp FR_N  &kp FR_DQUO
+                                &kp LCTRL  &kp FR_Z   &kp FR_Y     &kp FR_X          &kp FR_COLN    &kp FR_K                &kp FR_M      &kp FR_Q      &kp FR_G      &kp FR_H    &kp FR_F  &kp ESC
+                                                                   &lt FRENCH LGUI   &mo LOWER      &kp SPACE               &kp RET       &mo RAISE     &kp RALT
                         >;
                 };
 
@@ -41,7 +41,7 @@
  
                         bindings = <
                                 &kp TAB    &kp FR_AGRV  &trans &kp FR_AMPR  &kp FR_EACU   &kp FR_EGRV           &trans       &trans  &trans &trans &trans   &kp BSPC
-                                &kp LSHFT  &kp FR_AT    &trans &trans       &kp FR_EUR    &trans                &kp FR_CCED  &trans  &trans &trans &trans   &kp KP_DIVIDE
+                                &kp LSHFT  &kp FR_AT    &trans &trans       &kp FR_EUR    &trans                &kp FR_CCED  &trans  &trans &trans &trans   &kp FR_DQUO
                                 &kp LCTRL  &trans       &trans &trans       &trans        &trans                &trans       &trans  &trans &trans &trans   &kp ESC
                                                                &kp LGUI     &trans        &kp SPACE             &kp RET      &trans  &kp RALT
                         >;

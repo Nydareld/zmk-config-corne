@@ -4,7 +4,16 @@ layers:
   - [TAB, B, Z, P, O, '4', '[', V, D, L]
   - [J, BSPC, LSHFT, Q, U, I, E, M, C, T]
   - [S, R, N, '3', LCTRL, W, Y, X, ., K]
-  - [;, A, G, H, F, ESC, system, french, SPACE, RET]
+  - - ;
+    - A
+    - G
+    - H
+    - F
+    - ESC
+    - {t: LGUI, h: system}
+    - french
+    - SPACE
+    - RET
   - [lower, RALT]
   french:
   - - TAB
@@ -30,7 +39,7 @@ layers:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - KP DIVIDE
+    - '3'
     - LCTRL
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
