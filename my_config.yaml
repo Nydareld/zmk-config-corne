@@ -36,7 +36,9 @@ draw_config:
 parse_config:
   preprocess: true
   skip_binding_parsing: false
-  raw_binding_map: {}
+  raw_binding_map: {
+    fr_e_acute : "é"
+  }
   sticky_label: sticky
   toggle_label: toggle
   trans_legend:
