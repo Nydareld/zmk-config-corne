@@ -4,16 +4,7 @@ layers:
   - [TAB, B, Z, P, O, '4', '[', V, D, L]
   - [J, BSPC, LSHFT, Q, U, I, E, M, C, T]
   - [S, R, N, '3', LCTRL, W, Y, X, ., K]
-  - - ;
-    - A
-    - G
-    - H
-    - F
-    - ESC
-    - {t: LGUI, h: french}
-    - lower
-    - SPACE
-    - RET
+  - [;, A, G, H, F, ESC, french, lower, SPACE, RET]
   - [raise, RALT]
   lower:
   - [TAB, F1, F2, F3, F4, F5, KP 0, KP 7, KP 8, KP 9]
@@ -94,8 +85,8 @@ layers:
     - '0'
     - {t: ▽, type: trans}
     - '1'
-    - '2'
-    - '7'
+    - '&euro_sign_lower'
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -106,8 +97,8 @@ layers:
     - RA(0)
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - '&euro_sign_lower'
-    - {t: ▽, type: trans}
+    - '2'
+    - '7'
     - '9'
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
