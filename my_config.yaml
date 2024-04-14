@@ -245,6 +245,20 @@ parse_config:
     KP_DIVIDE: '/'
     KP_EQUAL: '='
     LS(M): '?'
+    LS(SQT): '%'
+    RA(N4): '{'
+    RA(EQUAL): '}'
+    RA(N5): '['
+    RA(MINUS): ']'
+    RA(N3): '#'
+    RA(N8): '\'
+    RA(N6): '|'
+    LS(DOT): '/'
+    $euro_sign: '€'
+
+
+
+    
 
   zmk_combos: {"combo_esc": {"align": "top", "offset": 0.5}}
 

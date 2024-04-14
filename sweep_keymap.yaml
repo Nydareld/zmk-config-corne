@@ -49,7 +49,7 @@ layers:
   - TAB
   - '!'
   - '?'
-  - RA(3)
+  - '#'
   - $
   - ²
   - ^
@@ -59,7 +59,7 @@ layers:
   - )
   - BSPC
   - LSHFT
-  - RA(8)
+  - \
   - <
   - UP
   - LS(STAR)
@@ -67,20 +67,20 @@ layers:
   - '-'
   - '='
   - M
-  - RA(4)
-  - RA(EQUAL)
-  - LS(SQT)
+  - '{'
+  - '}'
+  - '%'
   - LCTRL
-  - LS(DOT)
+  - /
   - LEFT
   - DOWN
   - RIGHT
   - '"'
   - _
   - +
-  - RA(6)
-  - RA(5)
-  - RA(MINUS)
+  - '|'
+  - '['
+  - ']'
   - '~'
   - LGUI
   - system
@@ -133,7 +133,7 @@ layers:
   - RALT
   french:
   - TAB
-  - à
+  - '&fr_a_grave'
   - {t: ▽, type: trans}
   - '&'
   - '&euro_sign_lower'
@@ -148,9 +148,9 @@ layers:
   - RA(0)
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - é
-  - è
-  - ç
+  - '&fr_e_acute'
+  - '&fr_e_grave'
+  - '&fr_c_cedilla'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
