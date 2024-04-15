@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   default: [TAB, B, W, P, O, ;, ^, V, D, L, J, BSPC, LSHFT, A, U, I, E, ',', C, T, S, R, N, M, LCTRL, Z, Y, X, ':', K, '''', Q, G, H, F, ESC, french, lower, SPACE,
-    RET, raise, RALT]
+    RET, raise, LALT]
   lower:
   - TAB
   - F1
@@ -44,7 +44,7 @@ layers:
   - SPACE
   - RET
   - system
-  - RALT
+  - LALT
   raise:
   - TAB
   - '!'
@@ -87,7 +87,7 @@ layers:
   - SPACE
   - RET
   - {type: held}
-  - RALT
+  - LALT
   system:
   - BT CLR
   - {t: BT, h: '0'}
@@ -130,7 +130,7 @@ layers:
   - SPACE
   - RET
   - {type: held}
-  - RALT
+  - LALT
   french:
   - TAB
   - {t: à, s: À}
@@ -173,4 +173,4 @@ layers:
   - SPACE
   - RET
   - {t: ▽, type: trans}
-  - RALT
+  - LALT

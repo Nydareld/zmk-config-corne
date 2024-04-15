@@ -15,8 +15,8 @@
 #define FRENCH   4
 
 ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)  // €
-ZMK_UNICODE_SINGLE(more_than, N0, N0, N3, C)  // <
-ZMK_UNICODE_SINGLE(less_than, N0, N0, N3, E)  // >
+ZMK_UNICODE_SINGLE(less_than, N0, N0, N3, C)  // <
+ZMK_UNICODE_SINGLE(more_than, N0, N0, N3, E)  // >
 ZMK_UNICODE_PAIR(fr_ae,             N0, N0, E, N6,   N0, N0, C, N6)  // æ/Æ
 ZMK_UNICODE_PAIR(fr_oe,             N0, N1, N5, N3,  N0, N1, N5, N2) // œ/Œ
 ZMK_UNICODE_PAIR(fr_a_grave,        N0, N0, E, N0,   N0, N0, C, N0)  // à/À
@@ -52,7 +52,7 @@ ZMK_UNICODE_PAIR(fr_y_diaeresis,    N0, N0, F, F,    N0, N1, N7, N8) // ÿ/Ÿ
                                 &kp TAB    &kp FR_B   &kp FR_W     &kp FR_P          &kp FR_O       &kp FR_SCLN             &kp FR_CIRC   &kp FR_V      &kp FR_D      &kp FR_L    &kp FR_J  &kp BSPC
                                 &kp LSHFT  &kp FR_A   &kp FR_U     &kp FR_I          &kp FR_E       &kp FR_COMM             &kp FR_C      &kp FR_T      &kp FR_S      &kp FR_R    &kp FR_N  &kp FR_M
                                 &kp LCTRL  &kp FR_Z   &kp FR_Y     &kp FR_X          &kp FR_COLN    &kp FR_K                &kp FR_QUOT   &kp FR_Q      &kp FR_G      &kp FR_H    &kp FR_F  &kp ESC
-                                                                   &mo FRENCH        &mo LOWER      &kp SPACE               &kp RET       &mo RAISE     &kp RALT
+                                                                   &mo FRENCH        &mo LOWER      &kp SPACE               &kp RET       &mo RAISE     &kp LALT
                         >;
                 };
 
@@ -64,7 +64,7 @@ ZMK_UNICODE_PAIR(fr_y_diaeresis,    N0, N0, F, F,    N0, N1, N7, N8) // ÿ/Ÿ
                                 &kp TAB    &kp F1  &kp F2    &kp F3    &kp F4  &kp F5              &kp KP_N0    &kp KP_N7      &kp KP_N8   &kp KP_N9   &kp EQUAL  &kp BSPC
                                 &kp LSHFT  &kp F6  &kp F7    &kp F8    &kp F9  &kp F10             &kp KP_DOT   &kp KP_N4      &kp KP_N5   &kp KP_N6   &kp KP_MINUS  &kp KP_DIVIDE
                                 &kp LCTRL  &kp F11 &kp F12   &kp HOME  &trans  &kp END             &kp FR_COMM  &kp KP_N1      &kp KP_N2   &kp KP_N3   &kp KP_PLUS   &kp KP_MULTIPLY
-                                                             &kp LGUI  &trans  &kp SPACE           &kp RET      &mo SYSTEM  &kp RALT
+                                                             &kp LGUI  &trans  &kp SPACE           &kp RET      &mo SYSTEM  &kp LALT
                         >;
                 };
 
@@ -74,7 +74,7 @@ ZMK_UNICODE_PAIR(fr_y_diaeresis,    N0, N0, F, F,    N0, N1, N7, N8) // ÿ/Ÿ
                                 &kp TAB   &kp FR_EXLM &kp FR_QUES   &kp FR_HASH  &kp FR_DLR  &kp FR_SUP2             &kp FR_CIRC  &kp FR_DIAE  &kp KP_MULTIPLY  &kp FR_LPRN  &kp FR_RPRN  &kp BSPC
                                 &kp LSHFT &kp FR_BSLS &less_than    &kp UP       &more_than  &kp FR_QUOT             &kp FR_MINS  &kp EQUAL    &kp FR_GRV       &kp FR_LCBR  &kp FR_RCBR  &kp FR_PERC
                                 &kp LCTRL &kp FR_SLSH &kp LEFT      &kp DOWN     &kp RIGHT   &kp FR_DQUO             &kp FR_UNDS  &kp PLUS     &kp FR_PIPE      &kp FR_LBRC  &kp FR_RBRC  &kp TILDE
-                                                                    &kp LGUI     &mo SYSTEM  &kp SPACE               &kp RET      &trans       &kp RALT
+                                                                    &kp LGUI     &mo SYSTEM  &kp SPACE               &kp RET      &trans       &kp LALT
                         >;
                 };
 
@@ -84,7 +84,7 @@ ZMK_UNICODE_PAIR(fr_y_diaeresis,    N0, N0, F, F,    N0, N1, N7, N8) // ÿ/Ÿ
                                 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4               &trans   &rgb_ug RGB_SPI &rgb_ug RGB_SPD  &trans  &trans &kp PSCRN
                                 &kp LCTRL   &kp C_PREV    &kp C_NEXT     &kp C_VOL_DN   &kp C_VOL_UP  &kp C_PP                   &trans   &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &trans  &trans &rgb_ug RGB_OFF 
                                 &kp LSHFT   &kp PAGE_UP   &kp PAGE_DOWN  &kp C_BRI_DN   &kp C_BRI_UP  &kp C_MUTE                 &trans   &rgb_ug RGB_BRD &rgb_ug RGB_BRI  &trans  &trans &kp K_LOCK    
-                                                                         &kp LGUI       &trans        &kp SPACE                  &kp RET  &trans  &kp RALT
+                                                                         &kp LGUI       &trans        &kp SPACE                  &kp RET  &trans  &kp LALT
                         >;
                 };
 
@@ -95,7 +95,7 @@ ZMK_UNICODE_PAIR(fr_y_diaeresis,    N0, N0, F, F,    N0, N1, N7, N8) // ÿ/Ÿ
                                 &kp TAB    &fr_a_grave  &trans &kp FR_AMPR  &euro_sign     &trans                    &trans         &trans  &trans &trans &trans   &kp BSPC
                                 &kp LSHFT  &kp FR_AT    &trans &trans       &fr_e_acute    &fr_e_grave               &fr_c_cedilla  &trans  &trans &trans &trans   &kp FR_DQUO
                                 &kp LCTRL  &trans       &trans &trans       &trans         &trans                    &trans         &trans  &trans &trans &trans   &kp ESC
-                                                               &trans       &trans         &kp SPACE                 &kp RET        &trans  &kp RALT
+                                                               &trans       &trans         &kp SPACE                 &kp RET        &trans  &kp LALT
                         >;
                 };
         };
