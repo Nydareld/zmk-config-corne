@@ -134,7 +134,7 @@ layers:
   french:
   - TAB
   - {t: à, s: À}
-  - {t: ▽, type: trans}
+  - {t: '&fr_ae_lower', s: '&fr_ae_upper'}
   - '&'
   - €
   - {t: ▽, type: trans}
@@ -146,12 +146,12 @@ layers:
   - BSPC
   - LSHFT
   - '@'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '&fr_u_grave_lower', s: '&fr_u_grave_upper'}
+  - {t: '&fr_oe_lower', s: '&fr_oe_upper'}
   - {t: é, s: É}
   - {t: è, s: È}
   - {t: ç, s: Ç}
-  - {t: ▽, type: trans}
+  - '&smiley_lower'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

@@ -34,7 +34,7 @@ ZMK_UNICODE_PAIR(fr_u_circumflex,   N0, N0, F, B,    N0, N0, D, B)   // û/Û
 ZMK_UNICODE_PAIR(fr_u_diaeresis,    N0, N0, F, C,    N0, N0, D, C)   // ü/Ü
 ZMK_UNICODE_PAIR(fr_y_diaeresis,    N0, N0, F, F,    N0, N1, N7, N8) // ÿ/Ÿ
 
-
+ZMK_UNICODE_FIVE(smiley, N1, F, N6, N0,N0 )
 
 
 &led_strip {
@@ -92,10 +92,10 @@ ZMK_UNICODE_PAIR(fr_y_diaeresis,    N0, N0, F, F,    N0, N1, N7, N8) // ÿ/Ÿ
                 french_layer {
                         label = "FRENCH";
                         bindings = <
-                                &kp TAB    &fr_a_grave  &trans &kp FR_AMPR  &euro_sign     &trans                    &trans         &trans  &trans &trans &trans   &kp BSPC
-                                &kp LSHFT  &kp FR_AT    &trans &trans       &fr_e_acute    &fr_e_grave               &fr_c_cedilla  &trans  &trans &trans &trans   &kp FR_DQUO
-                                &kp LCTRL  &trans       &trans &trans       &trans         &trans                    &trans         &trans  &trans &trans &trans   &kp ESC
-                                                               &trans       &trans         &kp SPACE                 &kp RET        &trans  &kp LALT
+                                &kp TAB    &fr_a_grave  &fr_ae       &kp FR_AMPR  &euro_sign     &trans                    &trans         &trans  &trans &trans &trans   &kp BSPC
+                                &kp LSHFT  &kp FR_AT    &fr_u_grave  &fr_oe       &fr_e_acute    &fr_e_grave               &fr_c_cedilla  &smiley  &trans &trans &trans   &kp FR_DQUO
+                                &kp LCTRL  &trans       &trans       &trans       &trans         &trans                    &trans         &trans  &trans &trans &trans   &kp ESC
+                                                                     &trans       &trans         &kp SPACE                 &kp RET        &trans  &kp LALT
                         >;
                 };
         };
