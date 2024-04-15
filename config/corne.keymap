@@ -34,10 +34,10 @@ ZMK_UNICODE_PAIR(fr_u_circumflex,   N0, N0, F, B,    N0, N0, D, B)   // û/Û
 ZMK_UNICODE_PAIR(fr_u_diaeresis,    N0, N0, F, C,    N0, N0, D, C)   // ü/Ü
 ZMK_UNICODE_PAIR(fr_y_diaeresis,    N0, N0, F, F,    N0, N1, N7, N8) // ÿ/Ÿ
 
-ZMK_UNICODE_EMOJI(smiley, N1, F, N6, N0,N0 ) // 😀😀
-ZMK_UNICODE_EMOJI(smiling, N1, F, N6, N0,N4 ) // 😄😄
-ZMK_UNICODE_EMOJI(bigsmile, N1, F, N6, N0,N1 ) // 😁😁
-ZMK_UNICODE_EMOJI(grinning, N1, F, N6, N0,N6 ) // 😆😆
+ZMK_UNICODE_EMOJI(smiley, N1, F, N6, N0,N0 ) // 😀
+ZMK_UNICODE_EMOJI(smiling, N1, F, N6, N0,N4 ) // 😄
+ZMK_UNICODE_EMOJI(bigsmile, N1, F, N6, N0,N1 ) // 😁
+ZMK_UNICODE_EMOJI(grinning, N1, F, N6, N0,N6 ) // 😆
 
 ZMK_UNICODE_EMOJI(wink, N1, F, N6, N0,N9 ) // 😉
 ZMK_UNICODE_EMOJI(halo, N1, F, N6, N0,N7 ) // 😇
