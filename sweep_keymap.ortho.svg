@@ -843,8 +843,8 @@ path.combo {
 </g>
 <g transform="translate(140, 35)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;fr_ae_lower</tspan></text>
-<text x="0" y="-24" class="key shifted"><tspan style="font-size: 60%">&amp;fr_ae_upper</tspan></text>
+<text x="0" y="0" class="key tap">æ</text>
+<text x="0" y="-24" class="key shifted">Æ</text>
 </g>
 <g transform="translate(196, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -892,13 +892,13 @@ path.combo {
 </g>
 <g transform="translate(140, 91)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;fr_u_grave_lower</tspan></text>
-<text x="0" y="-24" class="key shifted"><tspan style="font-size: 60%">&amp;fr_u_grave_upper</tspan></text>
+<text x="0" y="0" class="key tap">ù</text>
+<text x="0" y="-24" class="key shifted">Ù</text>
 </g>
 <g transform="translate(196, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;fr_oe_lower</tspan></text>
-<text x="0" y="-24" class="key shifted"><tspan style="font-size: 60%">&amp;fr_oe_upper</tspan></text>
+<text x="0" y="0" class="key tap">œ</text>
+<text x="0" y="-24" class="key shifted">Œ</text>
 </g>
 <g transform="translate(252, 91)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

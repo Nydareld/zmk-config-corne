@@ -107,16 +107,12 @@ parse_config:
     "&fr_e_grave_upper" : "È",
     "&fr_c_cedilla_lower": "ç",
     "&fr_c_cedilla_upper": "Ç",
-
-    "fr_ae_lower": "æ",
-    "fr_ae_upper": "Æ",
-
-    "fr_oe_lower": "œ",
-    "fr_oe_upper": "Œ",
-
-    "fr_u_grave_lower": "ù",
-    "fr_u_grave_upper": "Ù",
-
+    "&fr_ae_lower": "æ",
+    "&fr_ae_upper": "Æ",
+    "&fr_oe_lower": "œ",
+    "&fr_oe_upper": "Œ",
+    "&fr_u_grave_lower": "ù",
+    "&fr_u_grave_upper": "Ù",
     "&less_than" : "<",
     "&more_than" : ">",
   }
