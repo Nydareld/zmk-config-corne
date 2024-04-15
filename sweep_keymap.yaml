@@ -139,10 +139,10 @@ layers:
   - €
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ' 😀'
+  - ' 😄'
+  - ' 😁'
+  - ' 😆'
   - BSPC
   - LSHFT
   - '@'
@@ -151,10 +151,10 @@ layers:
   - {t: é, s: É}
   - {t: è, s: È}
   - {t: ç, s: Ç}
-  - '&smiley_lower'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ' 😉'
+  - ' 😇'
+  - ' 🫠'
+  - ' 🥲'
   - '"'
   - LCTRL
   - {t: ▽, type: trans}
@@ -163,10 +163,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ' 🫡'
+  - ' 🤕'
+  - ' 💩'
+  - ' 💯'
   - ESC
   - {type: held}
   - {t: ▽, type: trans}

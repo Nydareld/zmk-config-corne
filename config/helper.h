@@ -156,6 +156,6 @@
     UC_MODMORPH(name, &name ## _lower, &name ## _upper)
 
 
-#define ZMK_UNICODE_FIVE(name, L0, L1, L2, L3, L4) \
-    UC_MACRO(name ## _lower, &kp L0 &kp L1 &kp L2 &kp L3 &kp L4) \
-    UC_MODMORPH(name, &name ## _lower, &none)
+#define ZMK_UNICODE_EMOJI(name, L0, L1, L2, L3, L4) \
+    UC_MACRO(name ## _emoji, &kp L0 &kp L1 &kp L2 &kp L3 &kp L4) \
+    UC_MODMORPH(name, &name ## _emoji, &none)

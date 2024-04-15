@@ -115,6 +115,25 @@ parse_config:
     "&fr_u_grave_upper": "Ù",
     "&less_than" : "<",
     "&more_than" : ">",
+
+    "&smiley_emoji" : " 😀",
+    "&smiling_emoji" : " 😄",
+    "&bigsmile_emoji" : " 😁",
+    "&grinning_emoji" : " 😆",
+
+    "&wink_emoji" : " 😉",
+    "&halo_emoji" : " 😇",
+    "&melting_emoji" : " 🫠",
+    "&tear_emoji" : " 🥲",
+
+    "&roger_emoji" : " 🫡",
+    "&bandage_emoji" : " 🤕",
+    "&poop_emoji" : " 💩",
+    "&hundred_emoji" : " 💯",
+
+
+
+
   }
   sticky_label: sticky
   toggle_label: toggle
