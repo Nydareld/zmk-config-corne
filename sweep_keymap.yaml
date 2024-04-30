@@ -1,7 +1,48 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  default: [TAB, B, W, P, O, ;, ^, V, D, L, J, BSPC, LSHFT, A, U, I, E, ',', C, T, S, R, N, M, LCTRL, Z, Y, X, ':', K, '''', Q, G, H, F, ESC, french, lower, SPACE,
-    RET, raise, LALT]
+  default:
+  - TAB
+  - B
+  - W
+  - P
+  - O
+  - ;
+  - ^
+  - V
+  - D
+  - L
+  - J
+  - BSPC
+  - LSHFT
+  - {t: A, h: UNDO}
+  - {t: U, h: CUT}
+  - {t: I, h: COPY}
+  - {t: E, h: PASTE}
+  - {t: ',', h: REDO}
+  - C
+  - T
+  - S
+  - R
+  - N
+  - M
+  - LCTRL
+  - Z
+  - Y
+  - X
+  - ':'
+  - K
+  - ''''
+  - Q
+  - G
+  - H
+  - F
+  - ESC
+  - french
+  - lower
+  - SPACE
+  - RET
+  - raise
+  - LALT
   lower:
   - TAB
   - F1
