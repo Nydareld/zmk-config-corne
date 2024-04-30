@@ -78,10 +78,10 @@ draw_config:
     g .key.keypos-38 > rect.key.held { stroke: #ff655b; stroke-width: 3;}
     g .key.keypos-39 > rect.key { fill: #FFD2CF; }
     g .key.keypos-39 > rect.key.held { stroke: #ff655b; stroke-width: 3;}
-    g .key.keypos-40 > rect.key { fill: #9FEDE7; }
-    g .key.keypos-40 > rect.key.held { stroke: #4bddd2; stroke-width: 3;}
-    g .key.keypos-41 > rect.key { fill: #B897E9; }
-    g .key.keypos-41 > rect.key.held { stroke: #8147d8; stroke-width: 3;}
+    g .key.keypos-40 > rect.key { fill: #B897E9; }
+    g .key.keypos-40 > rect.key.held { stroke: #8147d8; stroke-width: 3;}
+    g .key.keypos-41 > rect.key { fill: #9FEDE7; }
+    g .key.keypos-41 > rect.key.held { stroke: #4bddd2; stroke-width: 3;}
 
 
   

@@ -14,11 +14,11 @@ layers:
   - J
   - BSPC
   - LSHFT
-  - {t: A, h: UNDO}
+  - {t: A, h: AC UNDO}
   - {t: U, h: CUT}
   - {t: I, h: COPY}
   - {t: E, h: PASTE}
-  - {t: ',', h: REDO}
+  - {t: ',', h: AC REDO}
   - C
   - T
   - S
