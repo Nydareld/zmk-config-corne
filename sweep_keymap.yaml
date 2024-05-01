@@ -14,11 +14,11 @@ layers:
   - J
   - BSPC
   - LSHFT
-  - {t: A, h: LC(Z)}
+  - {t: A, h: LC(W)}
   - {t: U, h: CUT}
   - {t: I, h: COPY}
   - {t: E, h: PASTE}
-  - {t: ',', h: LC(LS(Z))}
+  - {t: ',', h: LC(LS(W))}
   - C
   - T
   - S

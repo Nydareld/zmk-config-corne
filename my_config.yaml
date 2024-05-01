@@ -131,6 +131,9 @@ parse_config:
     "&poop_emoji" : " 💩",
     "&hundred_emoji" : " 💯",
 
+    "LC(Z)" : "UNDO",
+    "LC(LS(Z))" : "REDO",
+
 
 
 
@@ -357,6 +360,8 @@ parse_config:
     RA(N6): '|'
     LS(DOT): '/'
     $euro_sign: '€'
+    LC(FR_Z): "UNDO"
+    LC(LS(FR_Z)): "REDO"
 
 
 

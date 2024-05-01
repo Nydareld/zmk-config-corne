@@ -63,7 +63,7 @@ ZMK_UNICODE_EMOJI(hundred, N1, F, N4, A,F ) // 💯
                         label = "BASE";
                         bindings = <
                                 &kp TAB    &kp FR_B        &kp FR_W       &kp FR_P        &kp FR_O         &kp FR_SCLN                &kp FR_CIRC   &kp FR_V      &kp FR_D      &kp FR_L    &kp FR_J  &kp BSPC
-                                &kp LSHFT  &mt LC(Z) FR_A &mt K_CUT FR_U &mt K_COPY FR_I &mt K_PASTE FR_E &mt LC(LS(Z)) FR_COMM         &kp FR_C      &kp FR_T      &kp FR_S      &kp FR_R    &kp FR_N  &kp FR_M
+                                &kp LSHFT  &mt LC(FR_Z) FR_A &mt K_CUT FR_U &mt K_COPY FR_I &mt K_PASTE FR_E &mt LC(LS(FR_Z)) FR_COMM         &kp FR_C      &kp FR_T      &kp FR_S      &kp FR_R    &kp FR_N  &kp FR_M
                                 &kp LCTRL  &kp FR_Z        &kp FR_Y       &kp FR_X        &kp FR_COLN      &kp FR_K                   &kp FR_QUOT   &kp FR_Q      &kp FR_G      &kp FR_H    &kp FR_F  &kp ESC
                                                                           &mo FRENCH      &mo LOWER        &kp SPACE                  &kp RET       &mo RAISE     &kp LALT
                         >;
