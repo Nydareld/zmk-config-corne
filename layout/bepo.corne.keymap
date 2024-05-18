@@ -8,11 +8,12 @@
 #include "helper.h"
 
 
-#define DEFAULT  0
-#define LOWER    1
-#define RAISE    2
-#define SYSTEM   3
-#define FRENCH   4
+#define DEFAULT   0
+#define NUMBER    1
+#define FUNCTION  2
+#define SYMBOL     3
+#define SYSTEM    4
+#define FRENCH    5
 
 ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)  // €
 ZMK_UNICODE_SINGLE(less_than, N0, N0, N3, C)  // <
@@ -62,27 +63,36 @@ ZMK_UNICODE_EMOJI(hundred, N1, F, N4, A,F ) // 💯
                 default_layer {
                         label = "BASE";
                         bindings = <
-                                &kp TAB    &kp FR_B        &kp FR_W       &kp FR_P        &kp FR_O         &kp FR_SCLN                &kp FR_CIRC   &kp FR_V      &kp FR_D      &kp FR_L    &kp FR_J  &kp BSPC
-                                &kp LSHFT  &mt LC(FR_Z) FR_A &mt K_CUT FR_U &mt K_COPY FR_I &mt K_PASTE FR_E &mt LC(LS(FR_Z)) FR_COMM         &kp FR_C      &kp FR_T      &kp FR_S      &kp FR_R    &kp FR_N  &kp FR_M
-                                &kp LCTRL  &kp FR_Z        &kp FR_Y       &kp FR_X        &kp FR_COLN      &kp FR_K                   &kp FR_QUOT   &kp FR_Q      &kp FR_G      &kp FR_H    &kp FR_F  &kp ESC
-                                                                          &mo FRENCH      &mo LOWER        &kp SPACE                  &kp RET       &mo RAISE     &kp LALT
+                                &kp TAB    &kp FR_B     &kp FR_W  &kp FR_P      &kp FR_O    &kp FR_SCLN            &kp FR_CIRC   &kp FR_V      &kp FR_D      &kp FR_L    &kp FR_J      &kp BSPC
+                                &kp LSHFT  &kp FR_A     &kp FR_U  &kp FR_I      &kp FR_E    &kp FR_COMM            &kp FR_C      &kp FR_T      &kp FR_S      &kp FR_R    &kp FR_N      &kp FR_M
+                                &kp LCTRL  &kp FR_Z     &kp FR_Y  &kp FR_X      &kp FR_COLN &kp FR_K               &kp FR_QUOT   &kp FR_Q      &kp FR_G      &kp FR_H    &kp FR_F      &kp ESC
+                                                                  &mo FUNCTION  &mo NUMBER  &kp SPACE              &kp RET       &lt SYMBOL DEL &lt FRENCH LALT
                         >;
                 };
 
 
-
-                lower_layer {
-                        label = "LOWER";
+                number_layer {
+                        label = "NUMBER";
                         bindings = <
-                                &kp TAB    &kp F1  &kp F2    &kp F3    &kp F4  &kp F5              &kp KP_N0    &kp KP_N7      &kp KP_N8   &kp KP_N9   &kp EQUAL     &kp BSPC
-                                &kp LSHFT  &kp F6  &kp F7    &kp F8    &kp F9  &kp F10             &kp KP_DOT   &kp KP_N4      &kp KP_N5   &kp KP_N6   &kp KP_MINUS  &kp KP_DIVIDE
-                                &kp LCTRL  &kp F11 &kp F12   &kp HOME  &trans  &kp END             &kp FR_COMM  &kp KP_N1      &kp KP_N2   &kp KP_N3   &kp KP_PLUS   &kp KP_MULTIPLY
-                                                             &kp LGUI  &trans  &kp SPACE           &kp RET      &mo SYSTEM  &kp LALT
+                                &kp TAB    &trans       &trans    &trans        &trans      &trans                 &kp KP_N0     &kp KP_N7     &kp KP_N8     &kp KP_N9   &kp EQUAL     &kp BSPC
+                                &kp LSHFT  &kp LC(FR_Z) &kp K_CUT &kp K_COPY    &kp K_PASTE &kp LC(LS(FR_Z))       &kp KP_DOT    &kp KP_N4     &kp KP_N5     &kp KP_N6   &kp KP_MINUS  &kp KP_DIVIDE
+                                &kp LCTRL  &trans       &trans    &trans        &trans      &trans                 &kp FR_COMM   &kp KP_N1     &kp KP_N2     &kp KP_N3   &kp KP_PLUS   &kp KP_MULTIPLY
+                                                                  &trans        &trans      &kp SPACE              &kp RET       &mo SYSTEM    &kp LALT
+                        >;
+                };
+
+                function_layer {
+                        label = "FUNCTION";
+                        bindings = <
+                                &kp TAB    &trans       &trans    &trans        &trans      &trans                 &trans        &kp F7        &kp F8        &kp F9      &kp F12       &kp BSPC
+                                &kp LSHFT  &kp LC(FR_Z) &kp K_CUT &kp K_COPY    &kp K_PASTE &kp LC(LS(FR_Z))       &trans        &kp F4        &kp F5        &kp F6      &kp F11       &trans
+                                &kp LCTRL  &trans       &trans    &trans        &trans      &trans                 &trans        &kp F1        &kp F2        &kp F3      &kp F10       &kp ESC
+                                                                  &trans        &trans      &kp SPACE              &kp RET       &mo SYSTEM    &kp LALT
                         >;
                 };
 
                 raise_layer {
-                        label = "RAISE";
+                        label = "SYMBOL";
                         bindings = <
                                 &kp TAB   &kp FR_EXLM &kp FR_QUES   &kp FR_HASH  &kp FR_DLR  &kp FR_SUP2             &kp FR_CIRC  &kp FR_DIAE  &kp KP_MULTIPLY  &kp FR_LPRN  &kp FR_RPRN  &kp BSPC
                                 &kp LSHFT &kp FR_BSLS &less_than    &kp UP       &more_than  &kp FR_QUOT             &kp FR_MINS  &kp EQUAL    &kp FR_GRV       &kp FR_LCBR  &kp FR_RCBR  &kp FR_PERC

@@ -14,11 +14,11 @@ layers:
   - J
   - BSPC
   - LSHFT
-  - {t: A, h: LC(W)}
-  - {t: U, h: CUT}
-  - {t: I, h: COPY}
-  - {t: E, h: PASTE}
-  - {t: ',', h: LC(LS(W))}
+  - A
+  - U
+  - I
+  - E
+  - ','
   - C
   - T
   - S
@@ -37,19 +37,19 @@ layers:
   - H
   - F
   - ESC
-  - french
-  - lower
+  - function
+  - number
   - SPACE
   - RET
-  - raise
-  - LALT
-  lower:
+  - {t: DEL, h: raise}
+  - {t: LALT, h: french}
+  number:
   - TAB
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '0'
   - '7'
   - '8'
@@ -57,11 +57,11 @@ layers:
   - '='
   - BSPC
   - LSHFT
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - UNDO
+  - CUT
+  - COPY
+  - PASTE
+  - REDO
   - .
   - '4'
   - '5'
@@ -69,19 +69,62 @@ layers:
   - '-'
   - /
   - LCTRL
-  - F11
-  - F12
-  - HOME
   - {t: ▽, type: trans}
-  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ','
   - '1'
   - '2'
   - '3'
   - +
   - '*'
-  - LGUI
+  - {t: ▽, type: trans}
   - {type: held}
+  - SPACE
+  - RET
+  - system
+  - LALT
+  function:
+  - TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F7
+  - F8
+  - F9
+  - F12
+  - BSPC
+  - LSHFT
+  - UNDO
+  - CUT
+  - COPY
+  - PASTE
+  - REDO
+  - {t: ▽, type: trans}
+  - F4
+  - F5
+  - F6
+  - F11
+  - {t: ▽, type: trans}
+  - LCTRL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F10
+  - ESC
+  - {type: held}
+  - {t: ▽, type: trans}
   - SPACE
   - RET
   - system
@@ -209,9 +252,9 @@ layers:
   - ' 💩'
   - ' 💯'
   - ESC
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SPACE
   - RET
   - {t: ▽, type: trans}
-  - LALT
+  - {t: LALT, type: held}
