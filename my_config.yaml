@@ -370,14 +370,13 @@ parse_config:
 
     LC(C) : "COPY"
     LC(X) : "CUT"
-    LC(Z) : "PASTE"
+    LC(V) : "PASTE"
     LC(S) : "SAVE"
     LC(N) : "NEW"
     LC(R) : "RESET"
     LC(LS(P)) : "PALET"
     LC(P) : "FILE"
-
-
+    LC(LS(DOT)): "COMMENT"
 
     
 

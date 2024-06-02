@@ -74,7 +74,7 @@ ZMK_UNICODE_EMOJI(hundred, N1, F, N4, A,F ) // 💯
                 number_layer {
                         label = "NUMBER";
                         bindings = <
-                                &kp TAB    &trans       &trans       &trans        &trans      &trans                 &kp KP_N0     &kp KP_N7     &kp KP_N8     &kp KP_N9   &kp EQUAL     &kp BSPC
+                                &kp TAB    &trans       &trans       &trans        &kp LC(FR_SLSH)      &trans                 &kp KP_N0     &kp KP_N7     &kp KP_N8     &kp KP_N9   &kp EQUAL     &kp BSPC
                                 &kp LSHFT  &kp LC(FR_Z) &kp LC(FR_X)    &kp LC(FR_C)    &kp LC(FR_V) &kp LC(LS(FR_Z))       &kp KP_DOT    &kp KP_N4     &kp KP_N5     &kp KP_N6   &kp KP_MINUS  &kp KP_DIVIDE
                                 &kp LCTRL  &kp LC(FR_S) &kp LC(FR_N) &kp LC(FR_R)  &kp LC(LS(FR_P))      &kp LC(FR_P)                 &kp FR_COMM   &kp KP_N1     &kp KP_N2     &kp KP_N3   &kp KP_PLUS   &kp KP_MULTIPLY
                                                                      &trans        &trans      &kp SPACE              &kp RET       &mo SYSTEM    &kp LALT
@@ -84,7 +84,7 @@ ZMK_UNICODE_EMOJI(hundred, N1, F, N4, A,F ) // 💯
                 function_layer {
                         label = "FUNCTION";
                         bindings = <
-                                &kp TAB    &trans       &trans       &trans        &trans      &trans                 &trans        &kp F7        &kp F8        &kp F9      &kp F12       &kp BSPC
+                                &kp TAB    &trans       &trans       &trans        &kp LC(FR_SLSH)      &trans                 &trans        &kp F7        &kp F8        &kp F9      &kp F12       &kp BSPC
                                 &kp LSHFT  &kp LC(FR_Z) &kp LC(FR_X)    &kp LC(FR_C)    &kp LC(FR_V) &kp LC(LS(FR_Z))       &trans        &kp F4        &kp F5        &kp F6      &kp F11       &trans
                                 &kp LCTRL  &kp LC(FR_S) &kp LC(FR_N) &kp LC(FR_R)  &kp LC(LS(FR_P))      &kp LC(FR_P)                 &trans        &kp F1        &kp F2        &kp F3      &kp F10       &kp ESC
                                                                      &trans        &trans      &kp SPACE              &kp RET       &mo SYSTEM    &kp LALT

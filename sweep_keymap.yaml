@@ -48,7 +48,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - COMMENT
   - {t: ▽, type: trans}
   - '0'
   - '7'
@@ -60,7 +60,7 @@ layers:
   - UNDO
   - CUT
   - COPY
-  - LC(V)
+  - PASTE
   - REDO
   - .
   - '4'
@@ -91,7 +91,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - COMMENT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F7
@@ -103,7 +103,7 @@ layers:
   - UNDO
   - CUT
   - COPY
-  - LC(V)
+  - PASTE
   - REDO
   - {t: ▽, type: trans}
   - F4
