@@ -69,11 +69,11 @@ layers:
   - '-'
   - /
   - LCTRL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SAVE
+  - NEW
+  - RESET
+  - PALET
+  - FILE
   - ','
   - '1'
   - '2'
@@ -112,11 +112,11 @@ layers:
   - F11
   - {t: ▽, type: trans}
   - LCTRL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SAVE
+  - NEW
+  - RESET
+  - PALET
+  - FILE
   - {t: ▽, type: trans}
   - F1
   - F2

@@ -133,6 +133,11 @@ parse_config:
 
     "LC(Z)" : "UNDO",
     "LC(LS(Z))" : "REDO",
+    "LC(FR_S)" : "SAVE",
+    "LC(FR_N)" : "NEW",
+    "LC(FR_R)" : "RESET",
+    "LC(LS(FR_P))" : "PALET",
+    "LC(FR_P)" : "FILE",
 
 
 
@@ -362,6 +367,12 @@ parse_config:
     $euro_sign: '€'
     LC(W): "UNDO"
     LC(LS(W)): "REDO"
+
+    LC(S) : "SAVE"
+    LC(N) : "NEW"
+    LC(R) : "RESET"
+    LC(LS(P)) : "PALET"
+    LC(P) : "FILE"
 
 
 
