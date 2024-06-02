@@ -60,7 +60,7 @@ layers:
   - UNDO
   - CUT
   - COPY
-  - PASTE
+  - LC(V)
   - REDO
   - .
   - '4'
@@ -103,7 +103,7 @@ layers:
   - UNDO
   - CUT
   - COPY
-  - PASTE
+  - LC(V)
   - REDO
   - {t: ▽, type: trans}
   - F4
