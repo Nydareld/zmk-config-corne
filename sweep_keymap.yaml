@@ -6,7 +6,7 @@ layers:
   - W
   - P
   - O
-  - ;
+  - ':'
   - ^
   - V
   - D
@@ -18,7 +18,7 @@ layers:
   - U
   - I
   - E
-  - ','
+  - ;
   - C
   - T
   - S
@@ -29,16 +29,16 @@ layers:
   - Z
   - Y
   - X
-  - ':'
   - K
+  - ','
   - ''''
   - Q
   - G
   - H
   - F
   - ESC
-  - function
-  - number
+  - {t: '?', h: number}
+  - {t: '!', h: function}
   - SPACE
   - RET
   - {t: DEL, h: raise}
@@ -55,7 +55,7 @@ layers:
   - '8'
   - '9'
   - '='
-  - BSPC
+  - /
   - LSHFT
   - UNDO
   - CUT
@@ -67,7 +67,7 @@ layers:
   - '5'
   - '6'
   - '-'
-  - /
+  - LSHFT
   - LCTRL
   - SAVE
   - NEW
@@ -80,8 +80,8 @@ layers:
   - '3'
   - +
   - '*'
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - SPACE
   - RET
   - system
@@ -110,7 +110,7 @@ layers:
   - F5
   - F6
   - F11
-  - {t: ▽, type: trans}
+  - LSHFT
   - LCTRL
   - SAVE
   - NEW
@@ -123,8 +123,8 @@ layers:
   - F3
   - F10
   - ESC
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - SPACE
   - RET
   - system
@@ -132,7 +132,7 @@ layers:
   raise:
   - TAB
   - '!'
-  - '?'
+  - '&'
   - '#'
   - $
   - ²
@@ -141,7 +141,7 @@ layers:
   - '*'
   - (
   - )
-  - BSPC
+  - '%'
   - LSHFT
   - \
   - <
@@ -153,7 +153,7 @@ layers:
   - '`'
   - '{'
   - '}'
-  - '%'
+  - LSHFT
   - LCTRL
   - /
   - LEFT
@@ -209,8 +209,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LOCK
-  - LGUI
-  - {type: held}
+  - {t: LGUI, type: held}
+  - {t: ▽, type: trans}
   - SPACE
   - RET
   - {type: held}
@@ -239,7 +239,7 @@ layers:
   - ' 😇'
   - ' 🫠'
   - ' 🥲'
-  - '"'
+  - LSHF
   - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
