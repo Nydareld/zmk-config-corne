@@ -116,7 +116,7 @@ ZMK_UNICODE_EMOJI(hundred, N1, F, N4, A,F ) // 💯
                         label = "FRENCH";
                         bindings = <
                                 &kp TAB    &fr_a_grave  &fr_ae       &kp FR_AMPR  &euro_sign     &trans                    &trans         &smiley &smiling &bigsmile &grinning   &kp BSPC
-                                &kp LSHFT  &kp FR_AT    &fr_u_grave  &fr_oe       &fr_e_acute    &fr_e_grave               &fr_c_cedilla  &wink &halo &melting &tear   &kp LSHF
+                                &kp LSHFT  &kp FR_AT    &fr_u_grave  &fr_oe       &fr_e_acute    &fr_e_grave               &fr_c_cedilla  &wink &halo &melting &tear   &kp LSHFT
                                 &kp LCTRL  &trans       &trans       &trans       &trans         &trans                    &trans         &roger &bandage &poop &hundred   &kp ESC
                                                                      &trans       &trans         &kp SPACE                 &kp RET        &trans  &kp LALT
                         >;

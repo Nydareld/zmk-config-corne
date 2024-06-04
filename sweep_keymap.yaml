@@ -239,7 +239,7 @@ layers:
   - ' 😇'
   - ' 🫠'
   - ' 🥲'
-  - LSHF
+  - LSHFT
   - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
