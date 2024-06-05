@@ -55,7 +55,7 @@ layers:
   - '8'
   - '9'
   - '='
-  - /
+  - BSPC
   - LSHFT
   - UNDO
   - CUT
@@ -67,7 +67,7 @@ layers:
   - '5'
   - '6'
   - '-'
-  - LSHFT
+  - /
   - LCTRL
   - SAVE
   - NEW
