@@ -180,11 +180,11 @@ layers:
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - {t: ▽, type: trans}
-  - LC(LA(LEFT))
-  - LC(LA(UP))
-  - LC(LA(RIGHT))
+  - RGB ON
+  - RGB EFF
   - {t: ▽, type: trans}
-  - PSCRN
+  - {t: ▽, type: trans}
+  - RGB OFF
   - LCTRL
   - PREV
   - NEXT
@@ -192,11 +192,11 @@ layers:
   - VOL UP
   - PP
   - {t: ▽, type: trans}
-  - RGB ON
-  - RGB EFF
+  - LC(LA(LEFT))
+  - LC(LA(UP))
+  - LC(LA(RIGHT))
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - RGB OFF
+  - PSCRN
   - LSHFT
   - PAGE UP
   - PAGE DOWN
