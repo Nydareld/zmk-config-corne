@@ -180,9 +180,9 @@ layers:
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - {t: ▽, type: trans}
-  - RGB SPI
-  - RGB SPD
-  - {t: ▽, type: trans}
+  - LC(LA(LEFT))
+  - LC(LA(UP))
+  - LC(LA(RIGHT))
   - {t: ▽, type: trans}
   - PSCRN
   - LCTRL
@@ -209,7 +209,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LOCK
-  - {t: LGUI, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - SPACE
   - RET

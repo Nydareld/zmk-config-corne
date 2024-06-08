@@ -104,10 +104,10 @@ ZMK_UNICODE_EMOJI(hundred, N1, F, N4, A,F ) // 💯
                 system_layer {
                         label = "SYSTEM";
                         bindings = <
-                                &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4               &trans   &rgb_ug RGB_SPI &rgb_ug RGB_SPD  &trans  &trans &kp PSCRN
+                                &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4               &trans   &kp LC(LA(LEFT)) &kp LC(LA(UP))  &kp LC(LA(RIGHT))  &trans &kp PSCRN
                                 &kp LCTRL   &kp C_PREV    &kp C_NEXT     &kp C_VOL_DN   &kp C_VOL_UP  &kp C_PP                   &trans   &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &trans  &trans &rgb_ug RGB_OFF 
                                 &kp LSHFT   &kp PAGE_UP   &kp PAGE_DOWN  &kp C_BRI_DN   &kp C_BRI_UP  &kp C_MUTE                 &trans   &rgb_ug RGB_BRD &rgb_ug RGB_BRI  &trans  &trans &kp K_LOCK    
-                                                                         &kp LGUI       &trans        &kp SPACE                  &kp RET  &trans  &kp LALT
+                                                                         &trans       &trans        &kp SPACE                  &kp RET  &trans  &kp LALT
                         >;
                 };
 
