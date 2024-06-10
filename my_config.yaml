@@ -368,6 +368,8 @@ parse_config:
     LC(W): "UNDO"
     LC(LS(W)): "REDO"
 
+    LC(Q) : "ALL"
+    LC(D) : "RESEL"
     LC(C) : "COPY"
     LC(X) : "CUT"
     LC(V) : "PASTE"

@@ -84,7 +84,7 @@ ZMK_UNICODE_EMOJI(hundred, N1, F, N4, A,F ) // 💯
                 function_layer {
                         label = "FUNCTION";
                         bindings = <
-                                &kp TAB    &trans       &trans       &trans        &kp LC(FR_SLSH)      &trans                 &trans        &kp F7        &kp F8        &kp F9      &kp F12       &kp BSPC
+                                &kp TAB    &kp LC(FR_A) &kp LC(FR_D) &trans        &kp LC(FR_SLSH)      &trans                 &trans        &kp F7        &kp F8        &kp F9      &kp F12       &kp BSPC
                                 &kp LSHFT  &kp LC(FR_Z) &kp LC(FR_X)    &kp LC(FR_C)    &kp LC(FR_V) &kp LC(LS(FR_Z))       &trans        &kp F4        &kp F5        &kp F6      &kp F11       &kp LSHFT
                                 &kp LCTRL  &kp LC(FR_S) &kp LC(FR_N) &kp LC(FR_R)  &kp LC(LS(FR_P))      &kp LC(FR_P)                 &trans        &kp F1        &kp F2        &kp F3      &kp F10       &kp ESC
                                                                      &trans        &trans      &kp SPACE              &kp RET       &mo SYSTEM    &kp LALT

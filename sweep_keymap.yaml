@@ -88,8 +88,8 @@ layers:
   - LALT
   function:
   - TAB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ALL
+  - RESEL
   - {t: ▽, type: trans}
   - COMMENT
   - {t: ▽, type: trans}
