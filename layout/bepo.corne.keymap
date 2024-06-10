@@ -74,7 +74,7 @@ ZMK_UNICODE_EMOJI(hundred, N1, F, N4, A,F ) // 💯
                 number_layer {
                         label = "NUMBER";
                         bindings = <
-                                &kp TAB    &trans       &trans       &trans        &kp LC(FR_SLSH)      &trans                 &kp KP_N0     &kp KP_N7     &kp KP_N8     &kp KP_N9   &kp EQUAL     &kp BSPC
+                                &kp TAB    &kp LC(FR_A) &kp LC(FR_D) &trans        &kp LC(FR_SLSH)      &trans                 &kp KP_N0     &kp KP_N7     &kp KP_N8     &kp KP_N9   &kp EQUAL     &kp BSPC
                                 &kp LSHFT  &kp LC(FR_Z) &kp LC(FR_X)    &kp LC(FR_C)    &kp LC(FR_V) &kp LC(LS(FR_Z))       &kp KP_DOT    &kp KP_N4     &kp KP_N5     &kp KP_N6   &kp KP_MINUS  &kp KP_DIVIDE
                                 &kp LCTRL  &kp LC(FR_S) &kp LC(FR_N) &kp LC(FR_R)  &kp LC(LS(FR_P))      &kp LC(FR_P)                 &kp FR_COMM   &kp KP_N1     &kp KP_N2     &kp KP_N3   &kp KP_PLUS   &kp KP_MULTIPLY
                                                                      &trans        &trans      &kp SPACE              &kp RET       &mo SYSTEM    &kp LALT

@@ -45,8 +45,8 @@ layers:
   - {t: LALT, h: french}
   number:
   - TAB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ALL
+  - RESEL
   - {t: ▽, type: trans}
   - COMMENT
   - {t: ▽, type: trans}
