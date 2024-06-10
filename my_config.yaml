@@ -370,6 +370,7 @@ parse_config:
 
     LC(Q) : "ALL"
     LC(D) : "RESEL"
+    LC(F) : "SEARCH"
     LC(C) : "COPY"
     LC(X) : "CUT"
     LC(V) : "PASTE"
